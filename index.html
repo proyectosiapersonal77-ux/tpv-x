@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>GastroPOS Spain</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                900: 'var(--brand-900)',
+                800: 'var(--brand-800)',
+                700: 'var(--brand-700)',
+                600: 'var(--brand-600)',
+                500: 'var(--brand-500)',
+                accent: 'var(--brand-accent)',
+                accentHover: 'var(--brand-accentHover)',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        /* Default Dark Mode Colors */
+        --brand-900: #0f172a;
+        --brand-800: #1e293b;
+        --brand-700: #334155;
+        --brand-600: #475569;
+        --brand-500: #64748b;
+        --brand-accent: #d97706;
+        --brand-accentHover: #b45309;
+        
+        --text-primary: #f1f5f9;
+        --text-secondary: #94a3b8;
+        --bg-primary: #0f172a;
+      }
+      
+      .light-mode {
+        /* Light Mode Colors */
+        --brand-900: #f8fafc;
+        --brand-800: #ffffff;
+        --brand-700: #e2e8f0;
+        --brand-600: #cbd5e1;
+        --brand-500: #94a3b8;
+        
+        --text-primary: #0f172a;
+        --text-secondary: #475569;
+        --bg-primary: #f8fafc;
+      }
+
+      .light-mode .text-gray-200,
+      .light-mode .text-gray-300,
+      .light-mode .text-gray-400 {
+        color: var(--text-secondary);
+      }
+      
+      .light-mode .text-white,
+      .light-mode .hover\:text-white:hover,
+      .light-mode .focus\:text-white:focus,
+      .light-mode .active\:text-white:active {
+        color: var(--text-primary) !important;
+      }
+      
+      .light-mode .text-gray-200,
+      .light-mode .hover\:text-gray-200:hover,
+      .light-mode .text-gray-300,
+      .light-mode .hover\:text-gray-300:hover,
+      .light-mode .text-gray-400,
+      .light-mode .hover\:text-gray-400:hover {
+        color: var(--text-secondary) !important;
+      }
+      
+      .light-mode .hover\:bg-brand-accent:hover,
+      .light-mode .hover\:bg-brand-accentHover:hover,
+      .light-mode .hover\:bg-red-400:hover,
+      .light-mode .hover\:bg-red-500:hover,
+      .light-mode .hover\:bg-red-600:hover,
+      .light-mode .hover\:bg-red-700:hover,
+      .light-mode .hover\:bg-blue-400:hover,
+      .light-mode .hover\:bg-blue-500:hover,
+      .light-mode .hover\:bg-blue-600:hover,
+      .light-mode .hover\:bg-green-400:hover,
+      .light-mode .hover\:bg-green-500:hover,
+      .light-mode .hover\:bg-green-600:hover,
+      .light-mode .hover\:bg-orange-500:hover,
+      .light-mode .hover\:bg-purple-500:hover,
+      .light-mode .hover\:bg-yellow-500:hover {
+        color: #ffffff !important;
+      }
+      
+      .light-mode .hover\:bg-brand-accent:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-brand-accentHover:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-red-400:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-red-500:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-red-600:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-red-700:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-blue-400:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-blue-500:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-blue-600:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-green-400:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-green-500:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-green-600:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-orange-500:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-purple-500:hover .hover\:text-white:hover,
+      .light-mode .hover\:bg-yellow-500:hover .hover\:text-white:hover {
+        color: #ffffff !important;
+      }
+      
+      /* Keep buttons and colored badges white text */
+      .light-mode .bg-brand-accent,
+      .light-mode .bg-brand-accentHover,
+      .light-mode .bg-green-500,
+      .light-mode .bg-green-600,
+      .light-mode .bg-green-700,
+      .light-mode .bg-blue-500,
+      .light-mode .bg-blue-600,
+      .light-mode .bg-blue-700,
+      .light-mode .bg-red-500,
+      .light-mode .bg-red-600,
+      .light-mode .bg-orange-500,
+      .light-mode .bg-orange-600,
+      .light-mode .bg-orange-700,
+      .light-mode .bg-purple-600,
+      .light-mode .bg-purple-700,
+      .light-mode .bg-gray-700,
+      .light-mode .bg-gray-900 {
+        color: #ffffff !important;
+      }
+      
+      .light-mode .bg-brand-accent .text-white,
+      .light-mode .bg-brand-accentHover .text-white,
+      .light-mode .bg-green-500 .text-white,
+      .light-mode .bg-green-600 .text-white,
+      .light-mode .bg-green-700 .text-white,
+      .light-mode .bg-blue-500 .text-white,
+      .light-mode .bg-blue-600 .text-white,
+      .light-mode .bg-blue-700 .text-white,
+      .light-mode .bg-red-500 .text-white,
+      .light-mode .bg-red-600 .text-white,
+      .light-mode .bg-orange-500 .text-white,
+      .light-mode .bg-orange-600 .text-white,
+      .light-mode .bg-orange-700 .text-white,
+      .light-mode .bg-purple-600 .text-white,
+      .light-mode .bg-purple-700 .text-white,
+      .light-mode .bg-gray-700 .text-white,
+      .light-mode .bg-gray-900 .text-white {
+        color: #ffffff !important;
+      }
+
+      /* Disable double-tap zoom on buttons */
+      button {
+        touch-action: manipulation;
+      }
+      body {
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.89.0",
+    "dexie": "https://esm.sh/dexie@^3.2.4",
+    "zustand": "https://esm.sh/zustand@5.0.3",
+    "@tanstack/react-query": "https://esm.sh/@tanstack/react-query@5.66.0",
+    "react-window": "https://esm.sh/react-window@1.8.10?external=react,react-dom",
+    "react-virtualized-auto-sizer": "https://esm.sh/react-virtualized-auto-sizer@1.0.24?external=react,react-dom"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
