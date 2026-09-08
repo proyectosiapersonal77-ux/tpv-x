@@ -243,8 +243,13 @@ const KitchenDisplay: React.FC<KitchenDisplayProps> = ({ onBack, onNavigate }) =
                                                             <span className="font-bold text-lg text-white leading-tight">{item.quantity}x {item.product_name}</span>
                                                             {item.status === 'ready' && <CheckCircle size={18} className="text-green-500 shrink-0 ml-2" />}
                                                         </div>
-                                                        {item.variant_name && <div className="text-sm text-orange-400 font-medium">Format: {item.variant_name}</div>}
-                                                        {item.notes && <div className="mt-1 text-sm bg-red-900/30 text-red-200 p-1 rounded border border-red-900/50 flex items-start gap-1"><AlertTriangle size={12} className="mt-0.5 shrink-0"/> {item.notes}</div>}
+                                                        {item.variant_name && <div className="text-sm text-orange-400 font-medium kds-variant">Format: {item.variant_name}</div>}
+                                                        {item.notes && (
+                                                            <div className="mt-1.5 text-sm bg-red-900/30 text-red-200 p-1.5 rounded-lg border border-red-900/50 flex items-start gap-1.5 font-medium kds-notes">
+                                                                <AlertTriangle size={14} className="mt-0.5 shrink-0 text-red-400 kds-notes-icon"/>
+                                                                <span className="leading-snug kds-notes-text">{item.notes}</span>
+                                                            </div>
+                                                        )}
                                                     </div>
                                                 ))}
                                             </div>
