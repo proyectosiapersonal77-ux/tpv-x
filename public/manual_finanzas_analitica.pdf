@@ -1,0 +1,1315 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4905
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+0. 841.8899999999999864 595.2799999999999727 -240.9448818897637921 re
+f
+0.23 0.51 0.96 rg
+0. 600.9451181102361943 595.2799999999999727 -11.3385826771653555 re
+f
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.376 0.647 0.98 rg
+51.0236220472441033 751.1813385826771992 Td
+(MANUAL DE ADMINISTRACIÓN & ARQUITECTURA FINANCIERA) Tj
+ET
+BT
+/F2 26 Tf
+29.8999999999999986 TL
+1. g
+51.0236220472441033 711.4962992125983874 Td
+(Finanzas y Analítica) Tj
+ET
+BT
+/F1 13 Tf
+14.9499999999999993 TL
+0.886 0.91 0.941 rg
+51.0236220472441033 677.480551181102328 Td
+(Dashboard BI, Rentabilidad P&L, Cierre Z, Modelo 347 e Impuestos) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 637.7955118110235162 Td
+(GastroPOS Suite v2.1 | Inteligencia de Negocio & Cumplimiento Tributario) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+59.5275590551181182 530.0789763779526993 m
+535.7524409448818687 530.0789763779526993 l
+540.4490356678522858 530.0789763779526993 544.2563779527558836 526.2716340930492152 544.2563779527558836 521.5750393700786844 c
+544.2563779527558836 419.5277952755905062 l
+544.2563779527558836 414.8312005526199755 539.5597832297853529 411.0238582677164914 535.7524409448818687 411.0238582677164914 c
+59.5275590551181182 411.0238582677164914 l
+54.8309643321475875 411.0238582677164914 51.0236220472441033 415.7204529906869652 51.0236220472441033 419.5277952755905062 c
+51.0236220472441033 521.5750393700786844 l
+51.0236220472441033 526.2716340930492152 55.7202167702146269 530.0789763779526993 59.5275590551181182 530.0789763779526993 c
+h
+B
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.09 0.165 rg
+68.031496062992133 507.4018110236219741 Td
+(Ficha Técnica del Documento) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 484.7246456692913057 Td
+(• Autor: Dirección Financiera & Arquitectura de Software GastroPOS) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 467.716771653543276 Td
+(• Destinatarios: Gerentes, Controllers Financieros, Asesores Fiscales y Dirección) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 450.7088976377952463 Td
+(• Módulos técnicos: AnalyticsScreen.tsx, TaxesReport.tsx, orderService.ts, cashService.ts) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 433.7010236220471597 Td
+(• Normativa: Ley Antifraude 11/2021, Cierres Z, Modelo 347, IVA Repercutido/Soportado) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 371.3388188976377364 Td
+(Índice de Contenidos) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 354.3309448818897067 Td
+(1. Introducción y Marco Estratégico de Inteligencia Financiera) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 337.323070866141677 Td
+(2. Arquitectura de Datos y Motor de Agregación Reactivo) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 320.3151968503935905 Td
+(3. Dashboard Financiero Operativo \(KPIs de Ventas y Tickets\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 303.3073228346455608 Td
+(4. Cuenta de Pérdidas y Ganancias \(P&L\): Costes Reales y Margen Bruto) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 286.2994488188975311 Td
+(5. Segmentación Analítica con Recharts \(Horas, Camareros, Zonas y Familias\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 269.2915748031495013 Td
+(6. Cierre Fiscal Diario Obligatorio \(Informe Z Oficial\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 252.2837007874014716 Td
+(7. Módulo Tributario y Liquidación de Impuestos \(IVA Repercutido vs. Soportado\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 235.2758267716534419 Td
+(8. Modelo 347: Auditoría y Declaración Anual de Operaciones con Terceros) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 218.2679527559054122 Td
+(9. Exportación Contable a CSV para Gestoría y Software Fiscal \(A3 / Sage\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 201.2600787401573825 Td
+(10. Auditoría de Tickets y Anulación Conforme a la Ley Antifraude) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 184.2522047244093528 Td
+(11. Control de Permisos Granulares \(RBAC\) y Seguridad Financiera) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 167.2443307086613231 Td
+(12. Preguntas Frecuentes y Guía de Resolución de Incidencias) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+165.6799999999999216 22.6771653543306684 Td
+(Página 1 de 4 — GastroPOS Suite | Manual Oficial de Finanzas y Analítica) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6487
+>>
+stream
+0.5670000000000001 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador: Módulo Finanzas y Analítica) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 751.1813385826771992 Td
+(1. Introducción y Marco Estratégico) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 745.5120472440944468 m
+150.236220472440948 745.5120472440944468 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 728.5041732283464171 Td
+(El módulo de Finanzas y Analítica de GastroPOS Suite constituye el centro neurálgico de inteligencia empresarial) Tj
+T* (\(Business Intelligence\) y liquidación tributaria del establecimiento. En el entorno de la restauración contemporánea, el) Tj
+T* (éxito de un restaurante depende de la capacidad de monitorizar en tiempo real el margen de beneficio, auditar las) Tj
+T* (ventas por turnos y cumplir con rigor las exigencias de la normativa fiscal \(Ley Antifraude 11/2021, VeriFactu y) Tj
+T* (Modelo 347\).) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 649.1340944881889072 Td
+(Este módulo unifica en una sola consola ejecutiva cuatro áreas clave: Dashboard analítico visual, cuenta de) Tj
+T* (explotación \(P&L en vivo\), emisión oficial de Cierres Z de caja y el módulo de gestión de impuestos con exportación) Tj
+T* (estructurada para gestorías.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 586.7718897637794271 Td
+(2. Arquitectura de Datos y Motor de Agregación) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 581.1025984251967884 m
+150.236220472440948 581.1025984251967884 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 564.0947244094487587 Td
+(GastroPOS Suite procesa millones de operaciones de sala y barra agregando datos locales en IndexedDB mediante) Tj
+T* (Dexie.js y sincronizando con Supabase. El motor de consulta \(TanStack React Query\) recalcula de forma reactiva las) Tj
+T* (métricas cuando se selecciona cualquier fecha en el selector superior.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 513.0711023622046696 Td
+(• db.orders: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+115.0075590551181222 513.0711023622046696 Td
+(Colección de tickets cerrados \(status: paid o voided\) con desglose de métodos de cobro, propinas,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 500.3151968503936473 Td
+(marcas temporales e identificadores de empleado y mesa.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 486.1419685039369369 Td
+(• db.products y Recetas: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+172.6725590551181426 486.1419685039369369 Td
+(Base de datos de escandallos con coste unitario de materia prima \(cost_price\) y tipo) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 473.3860629921259147 Td
+(impositivo de IVA \(tax_rate\) para deducir el coste de ventas.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 459.2128346456692611 Td
+(• purchase_orders: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+147.9725590551181256 459.2128346456692611 Td
+(Albaranes y pedidos de compra recepcionados a proveedores, base del cálculo del IVA) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 446.4569291338582389 Td
+(soportado deducible.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 420.9451181102361375 Td
+(3. Dashboard Financiero Operativo) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 415.2758267716534988 m
+150.236220472440948 415.2758267716534988 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 398.2679527559054691 Td
+(Permite a la gerencia evaluar la actividad comercial de un vistazo para el día seleccionado:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 375.5907874015747439 Td
+(• Ventas Totales: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+135.4325590551181051 375.5907874015747439 Td
+(Importe total facturado en euros con impuestos incluidos.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 361.4175590551180335 Td
+(• Tickets Emitidos: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+145.5025590551181267 361.4175590551180335 Td
+(Volumen de comandas cobradas a clientes.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 347.24433070866138 Td
+(• Ticket Medio: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+127.6425590551181415 347.24433070866138 Td
+(Gasto medio por ticket \(Ventas Totales / Nº de Tickets\), indicador clave para la estrategia de) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 334.4884251968503008 Td
+(upselling y venta sugerida.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 320.3151968503935905 Td
+(• Desglose Efectivo vs. Tarjeta: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+200.317559055118096 320.3151968503935905 Td
+(Visualización diferenciada de ingresos en metálico y cobros electrónicos por) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 307.559291338582625 Td
+(datáfono bancario.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 282.0474803149605805 Td
+(4. Rentabilidad y Cuenta de Explotación \(P&L en Vivo\)) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 276.378188976377885 m
+150.236220472440948 276.378188976377885 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 259.3703149606297984 Td
+(A diferencia de los sistemas tradicionales que solo registran facturación bruta, GastroPOS calcula en tiempo real la) Tj
+T* (rentabilidad operativa:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+165.6799999999999216 22.6771653543306684 Td
+(Página 2 de 4 — GastroPOS Suite | Manual Oficial de Finanzas y Analítica) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9393
+>>
+stream
+2.2677165354330713 w
+0.23 0.51 0.96 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador: Módulo Finanzas y Analítica) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+56.6929133858267775 762.5199212598424765 m
+538.5870866141731312 762.5199212598424765 l
+541.7181497628201896 762.5199212598424765 544.2563779527558836 759.9816930699067825 544.2563779527558836 756.8506299212598378 c
+544.2563779527558836 646.2994488188976447 l
+544.2563779527558836 643.1683856702505864 541.1253148041088252 640.6301574803148924 538.5870866141731312 640.6301574803148924 c
+56.6929133858267775 640.6301574803148924 l
+53.5618502371797618 640.6301574803148924 51.0236220472441033 643.7612206289619508 51.0236220472441033 646.2994488188976447 c
+51.0236220472441033 756.8506299212598378 l
+51.0236220472441033 759.9816930699067825 54.1546851958911191 762.5199212598424765 56.6929133858267775 762.5199212598424765 c
+h
+B
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+68.031496062992133 742.6774015748030706 Td
+(Cálculo de Margen Bruto y Coste de Ventas \(COGS\)) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+68.031496062992133 725.6695275590550409 Td
+(• Coste Total de Ventas = Suma \(Cantidad Vendida x Coste de Escandallo de Ingredientes\)) Tj
+T* (• Beneficio Bruto = Ventas Netas \(sin IVA\) - Coste Total de Ventas) Tj
+T* (• Margen Bruto \(%\) = \(Beneficio Bruto / Ventas Netas\) x 100) Tj
+T* () Tj
+T* (Un margen bruto saludable en restauración se sitúa entre el 68% y el 75%. Desviaciones por debajo del 65%) Tj
+T* (activan alertas operativas.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 617.952992125984224 Td
+(5. Segmentación Analítica Visual \(Recharts\)) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 612.2837007874014716 m
+150.236220472440948 612.2837007874014716 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 595.2758267716535556 Td
+(El módulo incorpora cuatro visualizadores gráficos de alta densidad analítica:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 572.5986614173227736 Td
+(• Ventas por Hora \(Mapa de Ritmo\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+219.8875590551181176 572.5986614173227736 Td
+(Gráfico de barras de las 24 horas del día. Permite identificar momentos valle) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 559.8427559055116944 Td
+(y horas punta para ajustar el cuadrante de personal.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 545.6695275590550409 Td
+(• Ventas por Categoría: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+165.6425590551181131 545.6695275590550409 Td
+(Gráfico de donut que muestra el peso porcentual de Bebidas, Entrantes, Principales y) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 532.9136220472440755 Td
+(Postres en la facturación total.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 518.7403937007873083 Td
+(• Ventas por Camarero: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+166.2125590551181347 518.7403937007873083 Td
+(Gráfico de barras horizontal que refleja el desempeño y volumen de cobros gestionado) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 505.9844881889763428 Td
+(por cada miembro de la sala.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 491.8112598425196325 Td
+(• Ventas por Zona: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+144.6475590551181369 491.8112598425196325 Td
+(Comparativa de recaudación entre Salón, Terraza y Barra para optimizar la ocupación de) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 479.0553543307086102 Td
+(mesas.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 453.5435433070865656 Td
+(6. Cierre Fiscal Diario Obligatorio \(Informe Z\)) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 447.8742519685038701 m
+150.236220472440948 447.8742519685038701 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 430.8663779527558404 Td
+(El Cierre Z es el documento formal exigido por la Agencia Tributaria al finalizar la jornada comercial:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 408.1892125984251152 Td
+(• Resumen Oficial de Ventas: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+191.9575590551181108 408.1892125984251152 Td
+(Total facturado, ventas en metálico, ventas en tarjeta y total de comprobantes.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 394.0159842519684616 Td
+(• Desglose de IVA por Tramos: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+197.7525590551181267 394.0159842519684616 Td
+(Tabla legal con desglose de Base Imponible y Cuota de IVA para el 4% \(básicos\),) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 381.2600787401574394 Td
+(10% \(hostelería general\) y 21% \(alcohol/servicios\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 367.086850393700729 Td
+(• Cuadre de Efectivo y Auditoría de Arqueo: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+258.5525590551180812 367.086850393700729 Td
+(Conciliación matemática: Fondo Inicial + Ventas Efectivo +) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 354.3309448818897067 Td
+(Entradas - Salidas = Saldo Esperado. Compara contra el dinero recontado y evidencia cualquier descuadre.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 340.1577165354329964 Td
+(• Impresión Oficial: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+148.2575590551181222 340.1577165354329964 Td
+(Estilos optimizados @media print para imprimir en impresora térmica de tickets \(80mm\) o) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 327.4018110236220309 Td
+(formato folio A4 para el gestor.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 301.8899999999999864 Td
+(7. Módulo Tributario y Liquidación de Impuestos) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 296.220708661417234 m
+150.236220472440948 296.220708661417234 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 279.2128346456692043 Td
+(Desde la pestaña Impuestos \(TaxesReport.tsx\), la asesoría contable dispone de un panel especializado:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 256.5356692913385359 Td
+(• Selectores Trimestrales: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+176.187559055118129 256.5356692913385359 Td
+(Filtro por año y trimestre \(T1, T2, T3, T4 o Anual\) sincronizado con el calendario de) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 243.7797637795274568 Td
+(declaraciones oficiales \(Modelo 303 y Modelo 390\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 229.6065354330708033 Td
+(• IVA Repercutido \(Ventas\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+183.977559055118121 229.6065354330708033 Td
+(Total acumulado repercutido a clientes clasificado por tramo de IVA.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 215.4333070866141497 Td
+(• IVA Soportado \(Compras\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+186.2575590551181506 215.4333070866141497 Td
+(Total deducible procedente de albaranes y facturas de compras a proveedores) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 202.6774015748030706 Td
+(recibidas en almacén.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 177.1655905511810261 Td
+(8. Modelo 347 \(Operaciones con Terceros\)) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 171.4962992125983305 m
+150.236220472440948 171.4962992125983305 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 154.4884251968503577 Td
+(Obligación fiscal anual para el control de operaciones comerciales relevantes:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 131.8112598425195756 Td
+(• Umbral de 3.005,06 €: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+164.977559055118121 131.8112598425195756 Td
+(El sistema audita automáticamente el acumulado anual de cada proveedor. Aquellos que) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 119.0553543307086102 Td
+(superan los 3.005,06 € \(con IVA incluido\) son listados automáticamente.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+165.6799999999999216 22.6771653543306684 Td
+(Página 3 de 4 — GastroPOS Suite | Manual Oficial de Finanzas y Analítica) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5739
+>>
+stream
+2.2677165354330713 w
+0.23 0.51 0.96 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador: Módulo Finanzas y Analítica) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 762.5199212598424765 Td
+(• Concordancia Fiscal: ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+147.3675590551181358 762.5199212598424765 Td
+(Permite cotejar las cifras antes de la presentación oficial para evitar discrepancias con los proveedores) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 749.7640157480315111 Td
+(declarantes.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 724.2522047244094665 Td
+(9. Exportación Contable a CSV para Gestoría) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 718.5829133858267141 m
+150.236220472440948 718.5829133858267141 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 701.5750393700786844 Td
+(El botón "Exportar CSV para Gestor" compila un informe completo en formato delimitado por comas con codificación) Tj
+T* (UTF-8 BOM, garantizando la apertura perfecta en Microsoft Excel, A3 Asesor, Sage 50 y Contasol.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 653.3860629921259715 Td
+(10. Auditoría de Tickets y Ley Antifraude) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 647.7167716535432191 m
+150.236220472440948 647.7167716535432191 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 630.7088976377951894 Td
+(Conforme a la Ley Antifraude 11/2021 y VeriFactu, los tickets emitidos no pueden ser borrados ni alterados:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 608.0317322834645211 Td
+(• Trazabilidad Inmutable: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+172.2925590551181187 608.0317322834645211 Td
+(Cada ticket conserva número correlativo de factura, fecha, hora, camarero y artículos.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 593.8585039370078675 Td
+(• Anulación Auditada: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+160.227559055118121 593.8585039370078675 Td
+(Los administradores pueden anular tickets justificando el motivo en el modal obligatorio. El) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 581.1025984251967884 Td
+(ticket queda marcado con tachado y estado VOIDED para auditorías tributarias.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 555.5907874015747439 Td
+(11. Permisos de Seguridad \(RBAC\)) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 549.9214960629921052 m
+150.236220472440948 549.9214960629921052 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 532.9136220472440755 Td
+(• can_view_reports: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+151.1075590551181165 532.9136220472440755 Td
+(Permite consultar el Dashboard de ventas y gráficas de rendimiento.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 518.7403937007873083 Td
+(• can_close_register: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+156.8075590551181335 518.7403937007873083 Td
+(Permite emitir e imprimir el Cierre Z oficial diario.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 504.5671653543306547 Td
+(• can_void_ticket: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+142.0825590551181108 504.5671653543306547 Td
+(Faculta la anulación justificada de facturas simplificadas.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 490.3939370078739444 Td
+(• admin: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+99.2375590551181119 490.3939370078739444 Td
+(Acceso completo a rentabilidad \(P&L\), costes de proveedores, liquidación de IVA y Modelo 347.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 464.8821259842518998 Td
+(12. Preguntas Frecuentes) Tj
+ET
+0.23 0.51 0.96 RG
+2.2677165354330713 w
+51.0236220472441033 459.2128346456692043 m
+150.236220472440948 459.2128346456692043 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 442.2049606299212314 Td
+(• ¿Por qué el margen bruto es inferior al previsto?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+290.8525590551181494 442.2049606299212314 Td
+(Compruebe si el coste de las materias primas en el) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 429.4490551181101523 Td
+(catálogo de inventario ha sido actualizado tras recibir los últimos albaranes de compra.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 415.2758267716534988 Td
+(• ¿Se pueden consultar cierres Z de días pasados?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+294.1775590551181949 415.2758267716534988 Td
+(Sí. Basta con utilizar el selector de fecha superior para) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 402.5199212598424765 Td
+(visualizar e imprimir el Cierre Z exacto de cualquier jornada previa.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+165.6799999999999216 22.6771653543306684 Td
+(Página 4 de 4 — GastroPOS Suite | Manual Oficial de Finanzas y Analítica) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+/F7 17 0 R
+/F8 18 0 R
+/F9 19 0 R
+/F10 20 0 R
+/F11 21 0 R
+/F12 22 0 R
+/F13 23 0 R
+/F14 24 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+25 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260913170726-00'00')
+>>
+endobj
+26 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000027297 00000 n 
+0000029137 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005109 00000 n 
+0000005246 00000 n 
+0000011785 00000 n 
+0000011922 00000 n 
+0000021367 00000 n 
+0000021505 00000 n 
+0000027372 00000 n 
+0000027498 00000 n 
+0000027629 00000 n 
+0000027763 00000 n 
+0000027901 00000 n 
+0000028025 00000 n 
+0000028154 00000 n 
+0000028286 00000 n 
+0000028422 00000 n 
+0000028550 00000 n 
+0000028677 00000 n 
+0000028806 00000 n 
+0000028939 00000 n 
+0000029041 00000 n 
+0000029390 00000 n 
+0000029476 00000 n 
+trailer
+<<
+/Size 27
+/Root 26 0 R
+/Info 25 0 R
+/ID [ <FC4C22057BC69D5EFE066E87962B06A8> <FC4C22057BC69D5EFE066E87962B06A8> ]
+>>
+startxref
+29580
+%%EOF

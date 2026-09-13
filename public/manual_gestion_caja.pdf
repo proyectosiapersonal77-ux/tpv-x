@@ -1,0 +1,1417 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4722
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+0. 841.8899999999999864 595.2799999999999727 -240.9448818897637921 re
+f
+0.95 0.49 0.15 rg
+0. 600.9451181102361943 595.2799999999999727 -11.3385826771653555 re
+f
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.949 0.49 0.149 rg
+51.0236220472441033 751.1813385826771992 Td
+(MANUAL DE ADMINISTRACIÓN & ARQUITECTURA CONTABLE) Tj
+ET
+BT
+/F2 26 Tf
+29.8999999999999986 TL
+1. g
+51.0236220472441033 711.4962992125983874 Td
+(Módulo: Gestión de Caja) Tj
+ET
+BT
+/F1 13 Tf
+14.9499999999999993 TL
+0.886 0.91 0.941 rg
+51.0236220472441033 677.480551181102328 Td
+(Arqueo de Efectivo, Cierre Z, Movimientos de Caja y Trazabilidad Fiscal) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 637.7955118110235162 Td
+(GastroPOS Suite v2.1 | Conforme a Ley Antifraude 11/2021 y VeriFactu / TicketBAI) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+59.5275590551181182 530.0789763779526993 m
+535.7524409448818687 530.0789763779526993 l
+540.4490356678522858 530.0789763779526993 544.2563779527558836 526.2716340930492152 544.2563779527558836 521.5750393700786844 c
+544.2563779527558836 419.5277952755905062 l
+544.2563779527558836 414.8312005526199755 539.5597832297853529 411.0238582677164914 535.7524409448818687 411.0238582677164914 c
+59.5275590551181182 411.0238582677164914 l
+54.8309643321475875 411.0238582677164914 51.0236220472441033 415.7204529906869652 51.0236220472441033 419.5277952755905062 c
+51.0236220472441033 521.5750393700786844 l
+51.0236220472441033 526.2716340930492152 55.7202167702146269 530.0789763779526993 59.5275590551181182 530.0789763779526993 c
+h
+B
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.09 0.165 rg
+68.031496062992133 507.4018110236219741 Td
+(Ficha Técnica del Documento) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 484.7246456692913057 Td
+(• Autor: Dirección de Operaciones & Arquitectura de Software GastroPOS) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 467.716771653543276 Td
+(• Destinatarios: Gerentes, Jefes de Sala, Auditores Internos y Personal de Caja) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 450.7088976377952463 Td
+(• Archivos fuente: CashRegisterScreen.tsx, cashService.ts, BluetoothPrinterService.ts) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 433.7010236220471597 Td
+(• Normativa: Inmutabilidad contable, control de descuadres y apertura eléctrica ESC/POS) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 371.3388188976377364 Td
+(Índice de Contenidos) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 354.3309448818897067 Td
+(1. Introducción y Marco Normativo Legal \(Ley Antifraude\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 337.323070866141677 Td
+(2. Arquitectura de Datos y Ciclo de Vida del Turno de Caja) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 320.3151968503935905 Td
+(3. Algoritmo Financiero: Saldo Esperado y Desviación \(Descuadre\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 303.3073228346455608 Td
+(4. Desglose de Controles, Iconografía y Pantalla Operativa) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 286.2994488188975311 Td
+(5. Flujo de Apertura de Caja y Conteo de Maniobra Inicial) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 269.2915748031495013 Td
+(6. Movimientos Manuales de Efectivo \(Entradas y Salidas Auditadas\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 252.2837007874014716 Td
+(7. Procedimiento de Arqueo y Cierre Definitivo \(Cierre Z\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 235.2758267716534419 Td
+(8. Comparativa Fiscal: Arqueo Parcial \(Informe X\) vs. Cierre Diario \(Informe Z\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 218.2679527559054122 Td
+(9. Integración Hardware: Apertura de Cajón ESC/POS \(Web Bluetooth\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 201.2600787401573825 Td
+(10. Permisos de Usuario \(RBAC\) y Registro de Auditoría \(Audit Log\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 184.2522047244093528 Td
+(11. Preguntas Frecuentes y Protocolos de Resolución de Incidencias) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+155.7599999999999056 22.6771653543306684 Td
+(Página 1 de 4 — GastroPOS Suite | Manual de Gestión de Caja y Arqueo Oficial) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 7524
+>>
+stream
+0.5670000000000001 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador y Operativa: Módulo Gestión de Caja) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 751.1813385826771992 Td
+(1. Introducción y Marco Normativo Legal) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 745.5120472440944468 m
+150.236220472440948 745.5120472440944468 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 728.5041732283464171 Td
+(El módulo de Gestión de Caja de GastroPOS Suite constituye el núcleo financiero responsable del control de) Tj
+T* (tesorería, custodia de fondos en metálico y trazabilidad integral de cada movimiento económico realizado en el) Tj
+T* (restaurante. En el marco fiscal español y europeo, el cumplimiento de la Ley Antifraude 11/2021 exige garantizar la) Tj
+T* (inmutabilidad, trazabilidad y conservación de todos los registros de cobro, impidiendo la alteración oculta de ventas o) Tj
+T* (saldos.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 649.1340944881889072 Td
+(GastroPOS Suite resuelve esta exigencia mediante un esquema de auditoría por eventos \(Audit Trail\), donde cada) Tj
+T* (apertura, movimiento extraordinario y cierre queda sellado con identificador de empleado, marca de tiempo y cálculo) Tj
+T* (criptográfico.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 586.7718897637794271 Td
+(2. Arquitectura de Datos y Ciclo de Vida del Turno) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 581.1025984251967884 m
+150.236220472440948 581.1025984251967884 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 564.0947244094487587 Td
+(El sistema de caja opera mediante una máquina de estados estricta gestionada en IndexedDB \(Dexie\) y sincronizada) Tj
+T* (con Supabase. No es posible cobrar pedidos en efectivo si no existe un turno de caja formalmente abierto en el) Tj
+T* (terminal.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 513.0711023622046696 Td
+(• CashRegister: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+132.2025590551181153 513.0711023622046696 Td
+(Representa la sesión o turno de caja. Contiene identificador único \(UUID\), fechas de) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 500.3151968503936473 Td
+(apertura/cierre, fondo inicial, saldo esperado, saldo real recontado y notas de descuadre.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 486.1419685039369369 Td
+(• CashMovement: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+141.1325590551180937 486.1419685039369369 Td
+(Registros de entrada o salida de efectivo ajenos a las comandas \(pagos a proveedores al) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 473.3860629921259147 Td
+(contado, inyección de cambio o retiradas de caja chica\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 459.2128346456692611 Td
+(• Sincronización Offline-First: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+194.9975590551181028 459.2128346456692611 Td
+(En caso de caída de la red Wi-Fi o internet, todas las transacciones se acumulan) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 446.4569291338582389 Td
+(en la cola de sincronización local \(SyncQueue\) y se replican al servidor central tan pronto se recupera la conexión.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 420.9451181102361375 Td
+(3. Algoritmo Financiero: Saldo Esperado y Descuadre) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 415.2758267716534988 m
+150.236220472440948 415.2758267716534988 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 398.2679527559054691 Td
+(Durante el servicio, el sistema calcula de manera continua y desatendida el Saldo Teórico o Esperado en la gaveta) Tj
+T* (portamonedas:) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+56.6929133858267775 361.4175590551180335 m
+538.5870866141731312 361.4175590551180335 l
+541.7181497628201896 361.4175590551180335 544.2563779527558836 358.8793308651823395 544.2563779527558836 355.748267716535338 c
+544.2563779527558836 270.7088976377951894 l
+544.2563779527558836 267.5778344891481879 541.1253148041088252 265.0396062992124939 538.5870866141731312 265.0396062992124939 c
+56.6929133858267775 265.0396062992124939 l
+53.5618502371797618 265.0396062992124939 51.0236220472441033 268.1706694478594954 51.0236220472441033 270.7088976377951894 c
+51.0236220472441033 355.748267716535338 l
+51.0236220472441033 358.8793308651823395 54.1546851958911191 361.4175590551180335 56.6929133858267775 361.4175590551180335 c
+h
+B
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+68.031496062992133 341.5750393700786844 Td
+(Fórmula Maestra de Saldo Teórico en Efectivo) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+68.031496062992133 324.5671653543306547 Td
+(Saldo Esperado = Fondo Inicial + Total Entradas Manuales - Total Salidas Manuales + Ventas TPV en Efectivo) Tj
+T* () Tj
+T* (Donde las Ventas TPV en Efectivo se computan filtrando órdenes pagadas \(status = paid, payment_method = cash\)) Tj
+T* (cerradas dentro del intervalo de tiempo comprendido entre opened_at y closed_at.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 253.7010236220471597 Td
+(Al finalizar la jornada, la diferencia entre el dinero contado por el operario y el Saldo Esperado determina el) Tj
+T* (descuadre contable:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 216.8506299212597241 Td
+(• Descuadre Cero \(0.00€\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+176.3775590551181267 216.8506299212597241 Td
+(Conciliación contable perfecta. Los ingresos físicos coinciden exactamente con los) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 204.0947244094487587 Td
+(tickets expedidos.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 189.9214960629919915 Td
+(• Descuadre Positivo \(+X.XX€\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+200.2225590551180971 189.9214960629919915 Td
+(Sobrante de caja. Indica cobros percibidos en exceso o errores de cambio a) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 177.1655905511810261 Td
+(favor del negocio.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 162.9923622047243725 Td
+(• Descuadre Negativo \(-X.XX€\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+200.9825590551181165 162.9923622047243725 Td
+(Faltante de caja. Implica pérdidas de cambio o extracciones de efectivo no) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 150.2364566929132934 Td
+(declaradas formalmente.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+155.7599999999999056 22.6771653543306684 Td
+(Página 2 de 4 — GastroPOS Suite | Manual de Gestión de Caja y Arqueo Oficial) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 8897
+>>
+stream
+2.2677165354330713 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador y Operativa: Módulo Gestión de Caja) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 751.1813385826771992 Td
+(4. Desglose de Controles e Iconografía de Pantalla) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 745.5120472440944468 m
+150.236220472440948 745.5120472440944468 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 728.5041732283464171 Td
+(La interfaz de Gestión de Caja \(CashRegisterScreen.tsx\) está optimizada para pantallas táctiles de TPV y tabletas en) Tj
+T* (formato horizontal:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 691.6537795275589815 Td
+(• Indicador Superior de Estado: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+203.3575590551181165 691.6537795275589815 Td
+(Chapa visual de alto contraste: Verde \(CAJA ABIERTA con candado abierto) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 678.8978740157480161 Td
+(Unlock\) o Rojo \(CAJA CERRADA con candado cerrado Lock\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 664.7246456692912489 Td
+(• Botón "Abrir Cajón" \(Printer\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+201.3625590551180835 664.7246456692912489 Td
+(Envía de forma remota un pulso eléctrico a la gaveta mediante Bluetooth/USB) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 651.9687401574802834 Td
+(sin necesidad de cobrar un ticket.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 637.7955118110235162 Td
+(• Tarjetas de Métricas en Vivo: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+195.9475590551180915 637.7955118110235162 Td
+(Cuatro paneles de control: Fondo Inicial, Ventas Efectivo \(+\), Movimientos Netos) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 625.0396062992125508 Td
+(\(+/-\) y Total Esperado en Cajón.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 610.8663779527558972 Td
+(• Historial de Movimientos: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+183.4075590551181278 610.8663779527558972 Td
+(Lista cronológica de entradas y salidas manuales con icono de flujo, hora, concepto y) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 598.1104724409448181 Td
+(cuantía monetaria.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 572.5986614173227736 Td
+(5. Flujo de Apertura de Caja \(Inicio de Jornada\)) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 566.9293700787401349 m
+150.236220472440948 566.9293700787401349 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 549.9214960629921052 Td
+(Al iniciar el primer turno del día o el cambio de relevo, el responsable debe establecer el fondo de maniobra:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 527.2443307086614368 Td
+(• Paso 1: Acceso: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+141.0375590551180949 527.2443307086614368 Td
+(Navegue desde el menú principal o menú lateral al módulo "Gestión de Caja".) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 513.0711023622046696 Td
+(• Paso 2: Introducción de Fondo: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+210.1975590551180915 513.0711023622046696 Td
+(Teclee en el campo numérico central el importe exacto en efectivo con el que) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 500.3151968503936473 Td
+(arranca el cajón \(ej. 150.00€\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 486.1419685039369369 Td
+(• Paso 3: Confirmación: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+168.5875590551181062 486.1419685039369369 Td
+(Pulse el botón verde "ABRIR CAJA". El sistema cambia a estado verde y autoriza) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 473.3860629921259147 Td
+(inmediatamente el cobro en efectivo en el TPV.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 447.8742519685038701 Td
+(6. Movimientos Manuales de Efectivo \(Entradas y Salidas\)) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 442.2049606299211746 m
+150.236220472440948 442.2049606299211746 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 425.1970866141731449 Td
+(Para garantizar que cada céntimo que entra o sale de la caja esté documentado, el personal debe registrar los) Tj
+T* (movimientos extraordinarios:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 388.3466929133857661 Td
+(• Entrada \(Inyección de Cambio\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+210.102559055118121 388.3466929133857661 Td
+(Se utiliza cuando se aporta efectivo externo al cajón. Se especifica el importe,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 375.5907874015747439 Td
+(el motivo \(ej. "Cambio de monedas de 1€ y 2€"\) y se pulsa ENTRADA.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 361.4175590551180335 Td
+(• Salida \(Gasto de Caja Chica\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+199.557559055118162 361.4175590551180335 Td
+(Se utiliza para pagos inmediatos en metálico \(ej. "Compra de limones en frutería) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 348.6616535433070112 Td
+(de urgencia: 12.50€"\). Se pulsa SALIDA.) Tj
+ET
+1. 0.95 0.95 rg
+0.99 0.65 0.65 RG
+56.6929133858267775 334.4884251968503008 m
+538.5870866141731312 334.4884251968503008 l
+541.7181497628201896 334.4884251968503008 544.2563779527558836 331.9501970069146068 544.2563779527558836 328.8191338582676622 c
+544.2563779527558836 269.2915748031495013 l
+544.2563779527558836 266.1605116545024998 541.1253148041088252 263.6222834645668627 538.5870866141731312 263.6222834645668627 c
+56.6929133858267775 263.6222834645668627 l
+53.5618502371797618 263.6222834645668627 51.0236220472441033 266.7533466132138642 51.0236220472441033 269.2915748031495013 c
+51.0236220472441033 328.8191338582676622 l
+51.0236220472441033 331.9501970069146068 54.1546851958911191 334.4884251968503008 56.6929133858267775 334.4884251968503008 c
+h
+B
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.6 0.106 0.106 rg
+68.031496062992133 314.6459055118109518 Td
+(Auditoría y Trazabilidad Obligatoria) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+68.031496062992133 297.6380314960629221 Td
+(El sistema no permite registrar movimientos sin indicar un texto en el campo "Motivo / Concepto". Cada movimiento) Tj
+T* (queda asociado al empleado autenticado en el turno para prevenir fraudes o extravíos.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 240.9451181102361943 Td
+(7. Procedimiento de Arqueo y Cierre Definitivo \(Cierre Z\)) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 235.2758267716534419 m
+150.236220472440948 235.2758267716534419 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 218.2679527559054122 Td
+(El Cierre Z es el procedimiento oficial de liquidación diaria. Requiere un conteo físico deliberado del dinero existente) Tj
+T* (en el cajón:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 181.4175590551179766 Td
+(• Conteo Físico Ciego: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+162.8875590551181176 181.4175590551179766 Td
+(El empleado cuenta todos los billetes y monedas de la gaveta e introduce el valor total en) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 168.6616535433070112 Td
+("Efectivo real en cajón \(€\)".) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 154.4884251968503577 Td
+(• Anotaciones de Cierre: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+171.722559055118154 154.4884251968503577 Td
+(En caso de incidencias extraordinarias, se cumplimenta el campo "Notas de cierre".) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+155.7599999999999056 22.6771653543306684 Td
+(Página 3 de 4 — GastroPOS Suite | Manual de Gestión de Caja y Arqueo Oficial) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 8424
+>>
+stream
+2.2677165354330713 w
+0.95 0.49 0.15 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador y Operativa: Módulo Gestión de Caja) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 762.5199212598424765 Td
+(• Validación Antidescuadre: ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+166.1675590551181472 762.5199212598424765 Td
+(Si el valor introducido difiere del Saldo Esperado, se despliega el modal de advertencia mostrando la) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 749.7640157480315111 Td
+(cuantía exacta del descuadre. El usuario debe confirmar conscientemente para forzar el cierre.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 735.5907874015747439 Td
+(• Sellado del Turno: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+149.0175590551181131 735.5907874015747439 Td
+(El estado pasa a CERRADO, se imprimen los resúmenes y se registran los valores en la) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 722.8348818897637784 Td
+(base de datos de manera irreversible.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 697.3230708661417339 Td
+(8. Comparativa Fiscal: Informe X vs. Informe Z) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 691.6537795275589815 m
+150.236220472440948 691.6537795275589815 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 674.6459055118109518 Td
+(Es imprescindible que tanto la dirección como los empleados distingan con claridad la diferencia entre ambos) Tj
+T* (informes:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 637.7955118110235162 Td
+(• Arqueo Parcial \(Informe X\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+190.7225590551180971 637.7955118110235162 Td
+(Informe de consulta provisional. Permite auditar la caja en mitad del turno sin cerrar) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 625.0396062992125508 Td
+(la sesión ni alterar los acumuladores fiscales.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 610.8663779527558972 Td
+(• Cierre Diario \(Informe Z\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+180.3675590551181358 610.8663779527558972 Td
+(Informe definitivo y legalmente vinculante. Cierra el turno, congela las ventas del día,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 598.1104724409448181 Td
+(desglosa bases imponibles de IVA y resetea los contadores del TPV.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 572.5986614173227736 Td
+(9. Integración Hardware: Cajón Portamonedas ESC/POS) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 566.9293700787401349 m
+150.236220472440948 566.9293700787401349 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 549.9214960629921052 Td
+(GastroPOS Suite se comunica con impresoras térmicas ESC/POS y cajones mediante la Web Bluetooth API:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 527.2443307086614368 Td
+(• Comando de Pulso: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+157.0925590551181301 527.2443307086614368 Td
+(Se transmite la secuencia hexadecimal estándar ESC p 0 25 250 \(pin 2 de la clavija RJ-11) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 514.4884251968503577 Td
+(del cajón\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 500.3151968503936473 Td
+(• Apertura Automática tras Cobro: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+215.422559055118171 500.3151968503936473 Td
+(Al liquidar un pedido en efectivo en el TPV, el cajón salta automáticamente) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 487.559291338582625 Td
+(para facilitar el cambio.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 473.3860629921259147 Td
+(• Apertura Manual Auditada: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+189.1075590551180881 473.3860629921259147 Td
+(El botón de la barra superior permite abrir el cajón sin cobro previo únicamente a) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 460.6301574803148924 Td
+(los usuarios con permiso can_open_drawer.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 435.1183464566928478 Td
+(10. Permisos de Usuario \(RBAC\) y Seguridad) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 429.4490551181101523 m
+150.236220472440948 429.4490551181101523 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 412.4411811023621226 Td
+(El control de tesorería se rige por el sistema de permisos granulares:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 389.7640157480314542 Td
+(• can_open_drawer: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+151.6775590551181381 389.7640157480314542 Td
+(Apertura física del cajón.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 375.5907874015747439 Td
+(• can_manage_cash: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+155.1925590551181244 375.5907874015747439 Td
+(Registro de cobros y movimientos manuales.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 361.4175590551180335 Td
+(• can_close_register: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+156.8075590551181335 361.4175590551180335 Td
+(Realización de arqueos de caja y cierres Z.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 347.24433070866138 Td
+(• can_view_reports: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+151.1075590551181165 347.24433070866138 Td
+(Acceso a estadísticas de ventas e históricos.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 321.7325196850392786 Td
+(11. Preguntas Frecuentes y Resolución de Incidencias) Tj
+ET
+0.95 0.49 0.15 RG
+2.2677165354330713 w
+51.0236220472441033 316.0632283464566399 m
+150.236220472440948 316.0632283464566399 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 299.0553543307086102 Td
+(• ¿Qué hacer si hay un descuadre al cerrar?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+262.7325590551182017 299.0553543307086102 Td
+(Verifique si se ha omitido registrar algún ticket de proveedor) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 286.2994488188975311 Td
+(pagado en metálico o propinas retiradas. Anote la incidencia en las notas de cierre.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 272.1262204724408775 Td
+(• ¿Por qué no salta el cajón eléctrico?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+235.942559055118096 272.1262204724408775 Td
+(Revise que la impresora esté encendida, emparejada por Bluetooth y) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 259.3703149606297984 Td
+(que el cable RJ-11 no esté desconectado en la parte trasera de la impresora.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+59.5275590551181182 245.1970866141731449 Td
+(• ¿Se pueden anular movimientos de caja erróneos?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+300.6375590551181745 245.1970866141731449 Td
+(Por seguridad legal antifraude, los movimientos no se) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+70.8661417322834666 232.4411811023621794 Td
+(borran; se debe emitir un contramovimiento de signo opuesto explicando la rectificación.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+155.7599999999999056 22.6771653543306684 Td
+(Página 4 de 4 — GastroPOS Suite | Manual de Gestión de Caja y Arqueo Oficial) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+/F7 17 0 R
+/F8 18 0 R
+/F9 19 0 R
+/F10 20 0 R
+/F11 21 0 R
+/F12 22 0 R
+/F13 23 0 R
+/F14 24 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+25 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260913170342-00'00')
+>>
+endobj
+26 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000030340 00000 n 
+0000032180 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000004926 00000 n 
+0000005063 00000 n 
+0000012639 00000 n 
+0000012776 00000 n 
+0000021725 00000 n 
+0000021863 00000 n 
+0000030415 00000 n 
+0000030541 00000 n 
+0000030672 00000 n 
+0000030806 00000 n 
+0000030944 00000 n 
+0000031068 00000 n 
+0000031197 00000 n 
+0000031329 00000 n 
+0000031465 00000 n 
+0000031593 00000 n 
+0000031720 00000 n 
+0000031849 00000 n 
+0000031982 00000 n 
+0000032084 00000 n 
+0000032433 00000 n 
+0000032519 00000 n 
+trailer
+<<
+/Size 27
+/Root 26 0 R
+/Info 25 0 R
+/ID [ <F33F16FCD36B18949FB6A9517F754672> <F33F16FCD36B18949FB6A9517F754672> ]
+>>
+startxref
+32623
+%%EOF

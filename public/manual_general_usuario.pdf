@@ -1,0 +1,583 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5358
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+0. 841.8899999999999864 595.2799999999999727 -240.9448818897637921 re
+f
+0.06 0.73 0.51 rg
+0. 600.9451181102361943 595.2799999999999727 -11.3385826771653555 re
+f
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.204 0.827 0.6 rg
+51.0236220472441033 751.1813385826771992 Td
+(MANUAL DE OPERACIONES & GUÍA DE SERVICIO) Tj
+ET
+BT
+/F2 26 Tf
+29.8999999999999986 TL
+1. g
+51.0236220472441033 711.4962992125983874 Td
+(Manual de Usuario TPV) Tj
+ET
+BT
+/F1 13 Tf
+14.9499999999999993 TL
+0.886 0.91 0.941 rg
+51.0236220472441033 677.480551181102328 Td
+(Guía Práctica para Camareros, Personal de Barra y Sala) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 637.7955118110235162 Td
+(GastroPOS Suite v2.1 | Sistema Integrado de Comandas y Cobros) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+59.5275590551181182 530.0789763779526993 m
+535.7524409448818687 530.0789763779526993 l
+540.4490356678522858 530.0789763779526993 544.2563779527558836 526.2716340930492152 544.2563779527558836 521.5750393700786844 c
+544.2563779527558836 436.5356692913385359 l
+544.2563779527558836 431.8390745683680052 539.5597832297853529 428.0317322834645211 535.7524409448818687 428.0317322834645211 c
+59.5275590551181182 428.0317322834645211 l
+54.8309643321475875 428.0317322834645211 51.0236220472441033 432.7283270064349949 51.0236220472441033 436.5356692913385359 c
+51.0236220472441033 521.5750393700786844 l
+51.0236220472441033 526.2716340930492152 55.7202167702146269 530.0789763779526993 59.5275590551181182 530.0789763779526993 c
+h
+B
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.09 0.165 rg
+68.031496062992133 507.4018110236219741 Td
+(Ficha de la Guía de Usuario) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 484.7246456692913057 Td
+(• Destinatarios: Personal de Sala, Barra, Camareros y Jefes de Rango) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 467.716771653543276 Td
+(• Objetivo: Agilizar la toma de pedidos, marcha de cocina y cobros rápidos) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 450.7088976377952463 Td
+(• Versión: 2.1 \(Compatible con móviles, tablets táctiles y TPV de mostrador\)) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.063 0.725 0.506 rg
+51.0236220472441033 382.6774015748030706 Td
+(1. Inicio de Sesión y Acceso con PIN) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 374.1734645669290558 m
+544.2563779527558836 374.1734645669290558 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 357.1655905511810261 Td
+(Cada empleado cuenta con un código PIN de 4 dígitos. Al iniciar sesión, el sistema identifica su rol \(Camarero,) Tj
+T* (Cocinero, Encargado, Administrador\) y adapta automáticamente los menús y permisos visibles.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.063 0.725 0.506 rg
+51.0236220472441033 312.9451181102361943 Td
+(2. Primeros Pasos: Toma de Pedidos en Mesa y Venta Directa) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 304.4411811023621226 m
+544.2563779527558836 304.4411811023621226 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 287.4333070866141497 Td
+(• Venta en Mesa: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+133.2629133858267778 287.4333070866141497 Td
+(Acceda al Plano de Mesas, elija la zona \(Salón, Terraza, Barra\) y toque la mesa deseada.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 274.6774015748030706 Td
+(Navegue por las familias de productos a la izquierda y añada los platos tocando sobre ellos.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 259.086850393700729 Td
+(• Venta Directa en Barra: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+169.077913385826804 259.086850393700729 Td
+(Para clientes de paso que no ocupan mesa, seleccione "Venta Directa" para cobrar al) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 246.3309448818896499 Td
+(vuelo en efectivo o tarjeta.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 230.7403937007873083 Td
+(• Notas y Modificadores: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+169.3629133858267721 230.7403937007873083 Td
+(Toque un producto en el ticket para añadir especificaciones de cocina \(punto de carne,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 217.9844881889763428 Td
+(sin sal, intolerancias\).) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.063 0.725 0.506 rg
+51.0236220472441033 191.0553543307086102 Td
+(3. Envío a Cocina y Barra \(Marcha de Platos\)) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 182.5514173228345669 m
+544.2563779527558836 182.5514173228345669 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 165.5435433070865656 Td
+(Al pulsar "Enviar Comanda", los productos se transmiten instantáneamente al KDS de cocina o a la impresora de) Tj
+T* (barra. El camarero puede seguir atendiendo otras mesas mientras el equipo de cocina prepara los pedidos.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+199.7999999999999829 22.6771653543306684 Td
+(Página 1 de 2 — GastroPOS Suite | Manual de Usuario) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 3071
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Usuario: Guía Operativa y de Servicio) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.063 0.725 0.506 rg
+51.0236220472441033 751.1813385826771992 Td
+(4. Gestión de Cobros y División de Cuenta) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 742.6774015748030706 m
+544.2563779527558836 742.6774015748030706 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 725.6695275590550409 Td
+(• Cobro Íntegro: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+131.1729133858267744 725.6695275590550409 Td
+(Pulse "Cobrar", seleccione Efectivo o Tarjeta. Al introducir el importe recibido en efectivo, el) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 712.9136220472440755 Td
+(sistema calcula automáticamente el cambio exacto.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 697.3230708661417339 Td
+(• Dividir Cuenta: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+132.6929133858267846 697.3230708661417339 Td
+(Pulse "Dividir Cuenta" para repartir el importe entre varios comensales de forma equitativa o por) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 684.5671653543306547 Td
+(artículos separados.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.063 0.725 0.506 rg
+51.0236220472441033 657.6380314960629221 Td
+(5. Preguntas Frecuentes de Sala \(FAQ\)) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 649.1340944881889072 m
+544.2563779527558836 649.1340944881889072 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 632.1262204724408775 Td
+(• ¿Cómo cancelo un producto anotado por error?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+284.8829133858267255 632.1262204724408775 Td
+(Si no se ha enviado a cocina, pulse el icono de papelera. Si) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 619.3703149606299121 Td
+(ya se envió, avise al encargado para que autorice la) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 606.614409448818833 Td
+(anulación.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 591.0238582677164914 Td
+(• ¿Qué hacer si el cliente se cambia de mesa?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+268.8279133858268324 591.0238582677164914 Td
+(Pulse el botón "Mover Mesa" en la comanda y seleccione la) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 578.2679527559055259 Td
+(nueva mesa.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+199.7999999999999829 22.6771653543306684 Td
+(Página 2 de 2 — GastroPOS Suite | Manual de Usuario) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260913072750-00'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000008822 00000 n 
+0000010647 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005562 00000 n 
+0000005699 00000 n 
+0000008885 00000 n 
+0000009010 00000 n 
+0000009140 00000 n 
+0000009273 00000 n 
+0000009411 00000 n 
+0000009535 00000 n 
+0000009664 00000 n 
+0000009796 00000 n 
+0000009932 00000 n 
+0000010060 00000 n 
+0000010187 00000 n 
+0000010316 00000 n 
+0000010449 00000 n 
+0000010551 00000 n 
+0000010897 00000 n 
+0000010983 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <84CA681D53516AAAD64DF5F1BB415078> <84CA681D53516AAAD64DF5F1BB415078> ]
+>>
+startxref
+11087
+%%EOF

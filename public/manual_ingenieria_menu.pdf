@@ -1,0 +1,397 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4566
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+0. 841.8899999999999864 595.2755905511811534 -107.7165354330708738 re
+f
+BT
+/F2 20 Tf
+23. TL
+1. g
+39.6850393700787407 790.8663779527558972 Td
+(GastroPOS Suite v2.1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.886 0.91 0.941 rg
+39.6850393700787407 768.1892125984252289 Td
+(MANUAL DE ADMINISTRACION: INGENIERIA DE MENU Y MATRIZ BCG) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.886 0.91 0.941 rg
+39.6850393700787407 751.1813385826771992 Td
+(Optimizacion de Rentabilidad, Food Cost y Asesor IA \(Gemini 3.8\)) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.145 0.388 0.922 rg
+39.6850393700787407 705.8270078740157487 Td
+(1. Fundamentos y Objetivos Estrategicos) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 685.9844881889763428 Td
+(El modulo de Ingenieria de Menu de GastroPOS Suite cruza en tiempo real el coste real de los escandallos \(materia prima,) Tj
+T* (mermas y rendimiento\) con los datos de venta reales del TPV \(orders y order_items en Dexie IndexedDB y Supabase\).) Tj
+T* (Permite clasificar el catalogo en 4 cuadrantes BCG para maximizar el margen de beneficio sin deteriorar el volumen de) Tj
+T* (clientela.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.145 0.388 0.922 rg
+39.6850393700787407 617.952992125984224 Td
+(2. La Matriz BCG: 4 Cuadrantes de Rentabilidad y Popularidad) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.851 0.467 0.024 rg
+39.6850393700787407 598.1104724409448181 Td
+(ESTRELLAS \(Alta Popularidad + Alto Margen\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 585.3545669291338527 Td
+(Son tus joyas de la carta. Mantener la calidad inalterada y garantizar un lugar prioritario en el diseno visual de la carta.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.851 0.467 0.024 rg
+39.6850393700787407 564.0947244094487587 Td
+(VACAS LECHERAS \(Alta Popularidad + Bajo Margen\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 551.3388188976377933 Td
+(Platos muy pedidos con poco margen. Subir ligeramente el PVP \(+0,30e\), renegociar con proveedores o ajustar porciones.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.851 0.467 0.024 rg
+39.6850393700787407 530.0789763779526993 Td
+(INTERROGANTES \(Baja Popularidad + Alto Margen\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 517.3230708661417339 Td
+(Platos muy rentables que se piden poco. Fomentar la recomendacion activa por camareros y colocarlos en sugerencias.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.851 0.467 0.024 rg
+39.6850393700787407 496.0632283464566399 Td
+(PERROS \(Baja Popularidad + Bajo Margen\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 483.3073228346456176 Td
+(Platos con poca venta y margen reducido que consumen stock. Reformular la receta o retirarlos en la siguiente renovacion.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.145 0.388 0.922 rg
+39.6850393700787407 453.5435433070865656 Td
+(3. Funciones Principales: Simulador What-If y PVP Masivo) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 433.7010236220471597 Td
+(• Grafica Interactiva de Dispersion \(Recharts\): Vista visual de cuadrantes con lineas de corte en las medias.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 416.69314960629913 Td
+(• Semaforizacion de Food Cost: Verde \(<28%\), Naranja \(28-35%\) y Rojo \(>35% de coste de materia prima\).) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 399.6852755905511003 Td
+(• Calculo Masivo de PVP: Formula PVP = Coste / \(1 - Margen Objetivo\) con redondeo comercial a 0,10e.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 382.6774015748030706 Td
+(• Simulador What-If: Experimentacion interactiva con sliders de PVP y coste con proyeccion de beneficio neto.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+39.6850393700787407 365.6695275590550409 Td
+(• Asesor Estrategico IA \(Gemini 3.8\): Informe ejecutivo de auditoria generado a peticion del usuario.) Tj
+ET
+0.8 0.84 0.88 RG
+39.6850393700787407 42.5199212598424126 m
+555.5905511811024553 42.5199212598424126 l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 0.455 0.545 rg
+39.6850393700787407 25.5120472440943331 Td
+(GastroPOS Suite v2.1 Oficial - Documentacion de Administracion - Pagina 1 de 1) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 0.455 0.545 rg
+467.7165354330709306 25.5120472440943331 Td
+(Confidencial & Privativo) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260913165936-00'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000004770 00000 n 
+0000006587 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000004827 00000 n 
+0000004952 00000 n 
+0000005082 00000 n 
+0000005215 00000 n 
+0000005352 00000 n 
+0000005475 00000 n 
+0000005604 00000 n 
+0000005736 00000 n 
+0000005872 00000 n 
+0000006000 00000 n 
+0000006127 00000 n 
+0000006256 00000 n 
+0000006389 00000 n 
+0000006491 00000 n 
+0000006835 00000 n 
+0000006921 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <FF84C84D20780D3C3066C6F5EDEBE5D2> <FF84C84D20780D3C3066C6F5EDEBE5D2> ]
+>>
+startxref
+7025
+%%EOF

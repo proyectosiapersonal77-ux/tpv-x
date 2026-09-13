@@ -1,0 +1,965 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 6101
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+0. 841.8899999999999864 595.2799999999999727 -240.9448818897637921 re
+f
+0.92 0.35 0.05 rg
+0. 600.9451181102361943 595.2799999999999727 -11.3385826771653555 re
+f
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.984 0.573 0.235 rg
+51.0236220472441033 751.1813385826771992 Td
+(MANUAL DE ADMINISTRACIÓN & ARQUITECTURA TÉCNICA) Tj
+ET
+BT
+/F2 26 Tf
+29.8999999999999986 TL
+1. g
+51.0236220472441033 711.4962992125983874 Td
+(Módulo: Cocina \(KDS\)) Tj
+ET
+BT
+/F1 13 Tf
+14.9499999999999993 TL
+0.886 0.91 0.941 rg
+51.0236220472441033 677.480551181102328 Td
+(Kitchen Display System, Tiempos, Enrutamiento & Alertas SLA) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 637.7955118110235162 Td
+(GastroPOS Suite v2.1 | Arquitectura WebSocket & Offline-First) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+59.5275590551181182 535.748267716535338 m
+535.7524409448818687 535.748267716535338 l
+540.4490356678522858 535.748267716535338 544.2563779527558836 531.9409254316318538 544.2563779527558836 527.2443307086613231 c
+544.2563779527558836 425.1970866141731449 l
+544.2563779527558836 420.500491891202671 539.5597832297853529 416.69314960629913 535.7524409448818687 416.69314960629913 c
+59.5275590551181182 416.69314960629913 l
+54.8309643321475875 416.69314960629913 51.0236220472441033 421.3897443292696607 51.0236220472441033 425.1970866141731449 c
+51.0236220472441033 527.2443307086613231 l
+51.0236220472441033 531.9409254316318538 55.7202167702146269 535.748267716535338 59.5275590551181182 535.748267716535338 c
+h
+B
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.09 0.165 rg
+68.031496062992133 513.0711023622046696 Td
+(Ficha Técnica del Documento) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 490.3939370078739444 Td
+(• Módulo Auditado: KitchenDisplay.tsx, orderService.ts, Supabase Realtime Channel) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 473.3860629921259147 Td
+(• Destinatarios: Administradores de Sistema, Gerentes de F&B, Jefes de Cocina y Pase) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 456.378188976377885 Td
+(• Versión: 2.1 Oficial \(Soporta pantallas táctiles horizontales 15" - 24", tablets e impresoras\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 439.3703149606298552 Td
+(• Cobertura: Enrutamiento Cocina/Barra, Semáforo SLA, Alérgenos y Permisos RBAC) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 368.5041732283464171 Td
+(1. Arquitectura y Filosofía del Sistema KDS) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 360.0002362204723454 m
+544.2563779527558836 360.0002362204723454 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 342.9923622047243725 Td
+(El módulo de Cocina \(Kitchen Display System - KDS\) reemplaza los tickets térmicos tradicionales por una pantalla) Tj
+T* (digital interactiva, reactiva y sincronizada en tiempo real.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 310.1104724409448181 Td
+(• Suscripción WebSockets Reactiva: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+221.9929133858268813 310.1104724409448181 Td
+(El KDS se conecta al canal Supabase kitchen-orders escuchando eventos) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 297.3545669291338527 Td
+(INSERT y UPDATE en orders y order_items en menos de 200 ms.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 281.7640157480313974 Td
+(• Motor Local-First Resiliente: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+193.1129133858268005 281.7640157480313974 Td
+(La función getKitchenOrders\(\) combina órdenes de IndexedDB \(Dexie\) y Postgres,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 269.0081102362204319 Td
+(garantizando que el servicio continúe sin interrupciones ante caídas del Wi-Fi.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 253.4175590551180903 Td
+(• Resolución Dinámica de Mesas: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+209.3579133858268335 253.4175590551180903 Td
+(Cada orden se mapea al instante con el nombre real de su mesa física \(ej.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 240.6616535433070112 Td
+("Mesa 4", "Terraza 2"\), eliminando errores de pase.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 210.8978740157480161 Td
+(2. Topología de Estaciones y Enrutamiento Inteligente) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 202.3939370078739444 m
+544.2563779527558836 202.3939370078739444 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 185.3860629921259715 Td
+(El sistema analiza dinámicamente la categoría de cada producto en la base de datos de inventario para decidir qué) Tj
+T* (artículos deben mostrarse en cada pantalla física:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 152.5041732283464171 Td
+(• Estación TODO \(General\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+181.1429133858268017 152.5041732283464171 Td
+(Muestra la comanda completa para el jefe de cocina o encargado de pase de platos.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 136.9136220472440755 Td
+(• Estación COCINA \(Naranja\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+191.4979133858267915 136.9136220472440755 Td
+(Filtra automáticamente la carta excluyendo las bebidas. Solo muestra entrantes,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 124.1577165354329964 Td
+(carnes, pescados y postres.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+148.3600000000000421 22.6771653543306684 Td
+(Página 1 de 3 — GastroPOS Suite | Manual de Administrador: Módulo Cocina \(KDS\)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 9186
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador: Módulo Cocina \(KDS\)) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+56.6929133858267775 762.5199212598424765 Td
+(• Estación BARRA \(Azul\): ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+173.6379133858267778 762.5199212598424765 Td
+(Filtra exclusivamente productos pertenecientes a la familia "Bebidas" \(cafés, cervezas, copas,) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+68.031496062992133 749.7640157480315111 Td
+(refrescos\).) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 720.0002362204724022 Td
+(3. Algoritmo FIFO y Medición de Tiempos de Espera) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 711.4962992125983874 m
+544.2563779527558836 711.4962992125983874 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 694.4884251968503577 Td
+(La pantalla ordena las tarjetas de izquierda a derecha siguiendo una estricta cola FIFO \(First-In, First-Out\):) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 675.212834645669318 Td
+(• Cálculo por Plato Más Antiguo \(oldestItemTime\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+284.2179133858267619 675.212834645669318 Td
+(Para evitar penalizar mesas con comandas escalonadas, el) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 662.4569291338582389 Td
+(tiempo se mide a partir del created_at del artículo activo más) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 649.7010236220471597 Td
+(antiguo.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 634.1104724409448181 Td
+(• Reorganización Dinámica: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+183.707913385826771 634.1104724409448181 Td
+(Las mesas con más tiempo de espera se desplazan automáticamente hacia el) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 621.3545669291338527 Td
+(margen izquierdo prioritario.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 591.5907874015747439 Td
+(4. Semáforo SLA y Alertas Cromáticas en Tiempo Real) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 583.086850393700729 m
+544.2563779527558836 583.086850393700729 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 566.0789763779526993 Td
+(El encabezado de cada comanda cambia de color según el tiempo transcurrido desde la marcha del pedido:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 546.8033858267715459 Td
+(• Verde Esmeralda \(0 - 14 min\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+197.0079133858267539 546.8033858267715459 Td
+(Dentro del tiempo estándar del servicio. Ritmo de elaboración correcto.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 531.212834645669318 Td
+(• Amarillo Ámbar \(15 - 30 min\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+197.0079133858267539 531.212834645669318 Td
+(Alerta de retraso moderado. El jefe de partida debe priorizar este ticket.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 515.6222834645668627 Td
+(• Rojo Pulsante \(> 30 min\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+178.6729133858267744 515.6222834645668627 Td
+(Alerta crítica con parpadeo continuo \(animate-pulse\). Requiere intervención inmediata) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 502.8663779527558972 Td
+(del responsable de cocina.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 473.1025984251967884 Td
+(5. Ciclo de Vida del Plato y Operativa Táctil) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 464.5986614173227736 m
+544.2563779527558836 464.5986614173227736 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 447.5907874015747439 Td
+(Los cocineros interactúan directamente con la pantalla táctil para comunicar el progreso a la sala:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 428.3151968503936473 Td
+(• Toque 1: Marcar como Listo \(ready\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+227.1229133858267346 428.3151968503936473 Td
+(El plato pasa a fondo verde esmeralda con icono de verificación) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 415.559291338582625 Td
+(\(CheckCircle\). Notifica a los camareros que está emplatado.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 399.9687401574802266 Td
+(• Toque 2: Marcar como Servido \(served\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+244.4129133858267551 399.9687401574802266 Td
+(El plato se retira de la comanda activa.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 384.378188976377885 Td
+(• Auto-Cierre del Ticket: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+165.8479133858267858 384.378188976377885 Td
+(Cuando todos los platos de una mesa se han marcado como servidos, la comanda) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 371.6222834645668627 Td
+(desaparece automáticamente del KDS.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 341.8585039370078107 Td
+(6. Seguridad Alimentaria: Variantes y Alérgenos) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 333.354566929133739 m
+544.2563779527558836 333.354566929133739 l
+S
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 316.3466929133857093 Td
+(La interfaz destaca elementos críticos con alta visibilidad cromática:) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 297.0711023622045559 Td
+(• Formatos y Variantes: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+163.8529133858267812 297.0711023622045559 Td
+(Mostrados en texto ámbar brillante \(ej. "Format: Media Ración", "Format: Tapa"\).) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 281.4805511811022143 Td
+(• Notas de Alérgenos e Intolerancias: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+226.1729133858267744 281.4805511811022143 Td
+(Recuadro rojo de alto contraste con icono AlertTriangle para instrucciones) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 268.7246456692912489 Td
+(críticas \("CELÍACO", "Sin cebolla", "Poco hecho"\).) Tj
+ET
+1. 0.95 0.95 rg
+0.99 0.65 0.65 RG
+56.6929133858267775 253.1340944881888504 m
+538.5870866141731312 253.1340944881888504 l
+541.7181497628201896 253.1340944881888504 544.2563779527558836 250.5958662982531564 544.2563779527558836 247.4648031496061549 c
+544.2563779527558836 193.606535433070718 l
+544.2563779527558836 190.4754722844237165 541.1253148041088252 187.9372440944880509 538.5870866141731312 187.9372440944880509 c
+56.6929133858267775 187.9372440944880509 l
+53.5618502371797618 187.9372440944880509 51.0236220472441033 191.0683072431350524 51.0236220472441033 193.606535433070718 c
+51.0236220472441033 247.4648031496061549 l
+51.0236220472441033 250.5958662982531564 54.1546851958911191 253.1340944881888504 56.6929133858267775 253.1340944881888504 c
+h
+B
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.6 0.106 0.106 rg
+68.031496062992133 233.2915748031495013 Td
+([!] ALERTA CRÍTICA: Protocolo de Alérgenos) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.6 0.106 0.106 rg
+68.031496062992133 216.2837007874014716 Td
+(Las notas de alérgenos enviadas desde el TPV deben verificarse visualmente en la pantalla KDS antes de) Tj
+T* (emplatar cualquier plato para evitar contaminaciones cruzadas.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 159.5907874015746302 Td
+(7. Control de Acceso por Roles \(RBAC\)) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 151.0868503937006437 m
+544.2563779527558836 151.0868503937006437 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 134.0789763779525856 Td
+(• Camareros \(waiter\): ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+154.1629133858267835 134.0789763779525856 Td
+(Acceso en modo Solo Lectura. Pueden consultar la pantalla pero no pueden marcar platos) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 121.3230708661416202 Td
+(como listos o servidos por error.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+148.3600000000000421 22.6771653543306684 Td
+(Página 2 de 3 — GastroPOS Suite | Manual de Administrador: Módulo Cocina \(KDS\)) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 2379
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administrador: Módulo Cocina \(KDS\)) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+56.6929133858267775 762.5199212598424765 Td
+(• Cocineros y Chefs \(cook/chef\): ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+204.5129133858267778 762.5199212598424765 Td
+(Control táctil total para cambiar estados y despachar platos.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 746.9293700787401349 Td
+(• Encargados y Administradores: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+208.3129133858268176 746.9293700787401349 Td
+(Control total, cambio de estaciones y forzado de sincronización.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.918 0.345 0.047 rg
+51.0236220472441033 717.1655905511811397 Td
+(8. Preguntas Frecuentes de la Administración \(FAQ\)) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 708.6616535433070112 m
+544.2563779527558836 708.6616535433070112 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 691.6537795275589815 Td
+(• ¿Qué pasa si se pulsa un plato por error?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+255.9079133858267312 691.6537795275589815 Td
+(Se marca como servido; el encargado puede auditar o reabrir la) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 678.8978740157480161 Td
+(comanda desde el TPV central.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 663.3073228346456744 Td
+(• ¿Se puede forzar la sincronización si hay microcortes?: ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+316.8029133858268551 663.3073228346456744 Td
+(Sí, pulsando el botón circular de refresco \(RefreshCw\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.278 0.333 0.412 rg
+68.031496062992133 650.5514173228345953 Td
+(en la barra superior.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+148.3600000000000421 22.6771653543306684 Td
+(Página 3 de 3 — GastroPOS Suite | Manual de Administrador: Módulo Cocina \(KDS\)) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260913163234-00'00')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000018248 00000 n 
+0000020081 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000006305 00000 n 
+0000006442 00000 n 
+0000015680 00000 n 
+0000015817 00000 n 
+0000018317 00000 n 
+0000018442 00000 n 
+0000018573 00000 n 
+0000018707 00000 n 
+0000018845 00000 n 
+0000018969 00000 n 
+0000019098 00000 n 
+0000019230 00000 n 
+0000019366 00000 n 
+0000019494 00000 n 
+0000019621 00000 n 
+0000019750 00000 n 
+0000019883 00000 n 
+0000019985 00000 n 
+0000020333 00000 n 
+0000020419 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <1CCEC05F1F0EAB61D583C962091BDD3F> <1CCEC05F1F0EAB61D583C962091BDD3F> ]
+>>
+startxref
+20523
+%%EOF

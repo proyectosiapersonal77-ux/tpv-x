@@ -16,6 +16,7 @@
     "@tanstack/react-query": "5.66.0",
     "@types/uuid": "^10.0.0",
     "dexie": "^3.2.4",
+    "jspdf": "^4.2.1",
     "lucide-react": "^0.562.0",
     "motion": "^12.38.0",
     "qrcode.react": "^4.2.0",

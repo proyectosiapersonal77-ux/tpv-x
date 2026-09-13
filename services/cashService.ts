@@ -136,3 +136,75 @@ export const getCashSales = async (registerId: string): Promise<number> => {
         (!register.closed_at || new Date(o.closed_at || o.created_at) <= new Date(register.closed_at))
     ).reduce((acc, o) => acc + (o.total || 0), 0);
 };
+
+export const getHistoricalRegisters = async (): Promise<CashRegister[]> => {
+    return await db.cash_registers
+        .toArray()
+        .then(regs => regs.sort((a, b) => new Date(b.opened_at).getTime() - new Date(a.opened_at).getTime()));
+};
+
+export interface RegisterDetailedSummary {
+    register: CashRegister;
+    openingBalance: number;
+    cashSales: number;
+    cardSales: number;
+    otherSales: number;
+    totalSales: number;
+    totalIn: number;
+    totalOut: number;
+    expectedBalance: number;
+    actualBalance: number;
+    difference: number;
+    ordersCount: number;
+}
+
+export const getRegisterDetailedSummary = async (registerId: string): Promise<RegisterDetailedSummary | null> => {
+    const register = await db.cash_registers.get(registerId);
+    if (!register) return null;
+
+    const movements = await getRegisterMovements(registerId);
+    let totalIn = 0;
+    let totalOut = 0;
+    movements.forEach(m => {
+        if (m.type === 'in') totalIn += m.amount;
+        if (m.type === 'out') totalOut += m.amount;
+    });
+
+    const orders = await db.orders.toArray();
+    const registerOrders = orders.filter(o => 
+        o.status === 'paid' &&
+        new Date(o.closed_at || o.created_at) >= new Date(register.opened_at) &&
+        (!register.closed_at || new Date(o.closed_at || o.created_at) <= new Date(register.closed_at))
+    );
+
+    let cashSales = 0;
+    let cardSales = 0;
+    let otherSales = 0;
+
+    registerOrders.forEach(o => {
+        const val = o.total || 0;
+        if (o.payment_method === 'cash') cashSales += val;
+        else if (o.payment_method === 'card') cardSales += val;
+        else otherSales += val;
+    });
+
+    const expectedBalance = register.opening_balance + totalIn - totalOut + cashSales;
+    const actualBalance = register.closing_balance !== undefined ? register.closing_balance : expectedBalance;
+    const difference = actualBalance - expectedBalance;
+
+    return {
+        register,
+        openingBalance: register.opening_balance,
+        cashSales,
+        cardSales,
+        otherSales,
+        totalSales: cashSales + cardSales + otherSales,
+        totalIn,
+        totalOut,
+        expectedBalance,
+        actualBalance,
+        difference,
+        ordersCount: registerOrders.length
+    };
+};
+
