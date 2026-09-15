@@ -19,6 +19,7 @@ import {
   FileCheck,
   Loader2
 } from 'lucide-react';
+import { USER_MANUAL_CONTENT } from './userManualContent';
 
 type DocTab = 'admin' | 'usuario';
 
@@ -521,43 +522,6 @@ El motor analítico consulta reactivamente IndexedDB (Dexie.js) y Supabase para 
 • **can_void_ticket:** Anulación justificada de tickets emitidos.
 • **admin:** Acceso total a P&L, márgenes, costes de proveedores y datos fiscales.`;
 
-const USER_MANUAL_CONTENT = `# Manual de Usuario y Operativa de Sala TPV
-**GastroPOS Suite v2.1**
-*Guía de Operaciones para Personal de Sala, Barra y Camareros*
-
----
-
-## 1. Inicio de Sesión y Acceso con PIN
-• Al abrir la aplicación, introduzca su código PIN personal de 4 dígitos.
-• El sistema detecta automáticamente su puesto de trabajo (Camarero, Cocinero, Encargado o Administrador) y adapta los módulos visibles.
-
----
-
-## 2. Toma de Pedidos: Mesas y Venta Directa
-• **Toma en Mesa:** Ingrese a "Mesas", seleccione la zona (Salón, Terraza o Barra) y pulse sobre una mesa libre (verde).
-• **Selección de Productos:** Navegue por las familias de platos situadas a la izquierda. Cada pulsación añadirá el plato a la comanda activa.
-• **Venta Directa:** En la barra para clientes de paso, utilice la opción "Venta Directa" para añadir consumiciones y cobrar sin reservar una mesa.
-• **Notas y Modificadores de Cocina:** Al pulsar sobre un plato en el ticket, puede especificar puntos de cocción (poco hecho, al punto), adición o retirada de ingredientes y advertencias de alérgenos con alta visibilidad.
-
----
-
-## 3. Marcha de Platos y Comunicación con Cocina (KDS)
-• Una vez completado el pedido, pulse "Enviar Comanda".
-• Los platos se envían automáticamente a la pantalla de cocina KDS o impresora de barra según su categoría.
-• La mesa cambia a color rojo en el plano de mesas y comienza a mostrar el acumulado en euros.
-
----
-
-## 4. Cobros, Pagos Mixtos y División de Cuentas
-• **Cobro Completo:** Pulse "Cobrar". Seleccione Efectivo o Tarjeta. Al introducir las monedas o billetes recibidos, el TPV calculará el cambio a devolver.
-• **Cobro Dividido por Comensales:** Si un grupo desea abonar su cuenta a partes iguales o por productos separados, pulse "Dividir Cuenta". El sistema desglosa los tickets individuales y calcula el saldo pendiente en tiempo real.
-
----
-
-## 5. Preguntas Frecuentes de Servicio
-• **¿Cómo anular un producto marcado por error?** Si la comanda aún no ha sido enviada a cocina, pulse el icono de papelera sobre el plato. Si ya fue procesada, solicite la anulación a un encargado.
-• **¿Cómo cambiar a un cliente de mesa?** Pulse "Mover Mesa" en la comanda activa y seleccione la nueva ubicación.`;
-
 const MANUALS: ManualDoc[] = [
   {
     id: 'admin_plano_mesas',
@@ -714,7 +678,7 @@ const MANUALS: ManualDoc[] = [
     id: 'admin_finanzas_analitica',
     title: 'Manual de Finanzas, Cierre Z y Fiscalidad',
     subtitle: 'Business Intelligence, Rentabilidad P&L, Impuestos y Modelo 347',
-    category: 'administrador',
+    category: 'admin',
     version: '2.1 Oficial',
     pages: 4,
     pdfUrl: '/manual_finanzas_analitica.pdf',
@@ -738,24 +702,30 @@ const MANUALS: ManualDoc[] = [
   },
   {
     id: 'user_tpv_general',
-    title: 'Manual de Usuario y Operativa de Sala TPV',
-    subtitle: 'Guía de Servicio para Camareros, Personal de Barra y Encargados de Sala',
+    title: 'Guía de Usuario Rápida y Completa: GastroPOS Suite',
+    subtitle: 'Manual Operativo Integral para Personal de Sala, Barra, Cocina, Caja y Encargados',
     category: 'usuario',
-    version: '2.1 Práctica',
-    pages: 3,
+    version: '2.1 Oficial',
+    pages: 20,
     pdfUrl: '/manual_general_usuario.pdf',
     filename: 'manual_general_usuario.pdf',
     date: 'Septiembre 2026',
-    badge: 'Operativa de Servicio',
-    summary: 'Guía paso a paso diseñada para capacitar a camareros y personal de barra en el uso diario: inicio con PIN, toma de comandas, modificadores para cocina, marcha de platos al KDS y división de cuentas en caja.',
+    badge: 'Guía Integral de Usuario',
+    summary: 'Manual operativo exhaustivo y estructurado que cubre la totalidad de módulos de GastroPOS Suite: Control de acceso con PIN, Dashboard, Plano de Mesas y uniones, TPV y modificadores, Cobros y cuentas divididas, Pantalla de Cocina (KDS), Visor de Cliente (CFD), Gestión de Caja y Cierre Z, Inventario y Escandallos, Ingeniería de Menú (BCG), Analítica e Impuestos, Configuración y Recorrido Integral de principio a fin.',
     topics: [
-      'Inicio de sesión y control de acceso por PIN',
-      'Toma de comandas en mesa y Venta Directa',
-      'Notas de cocina y alérgenos de alto contraste',
-      'Envío a cocina y pantallas KDS',
-      'Cobros en efectivo, cálculo de cambio y datáfono',
-      'División de cuenta entre comensales',
-      'Resolución rápida de incidencias durante el servicio'
+      'Control de Acceso y Autenticación (PinPad & Roles)',
+      'Panel de Control Principal (Dashboard Central)',
+      'Plano de Mesas, Zonas y Fusión/Desunión (TablePlan)',
+      'Terminal Punto de Venta (TPV), Formatos y Alérgenos',
+      'Gestión de Cobros, Pagos Divididos y Facturación',
+      'Pantalla de Cocina y Barra (KDS) y Semáforos SLA',
+      'Visor de Cliente (CFD) y Códigos QR de Pago',
+      'Gestión de Caja, Arqueo Ciego y Cierre Diario Z',
+      'Inventario, Escandallos (Yield) y Recepción de Albaranes (PMP)',
+      'Ingeniería de Menú (Matriz BCG, Food Cost y Simulador What-If)',
+      'Finanzas, P&L, Cierre Z, Impuestos e Informe Antifraude',
+      'Configuración de Usuarios (RBAC), Impresoras Bluetooth y Marca Blanca',
+      'Recorrido Integral de Principio a Fin (Flujo Maestro del Restaurante)'
     ],
     fullContentMarkdown: USER_MANUAL_CONTENT
   }
