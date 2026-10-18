@@ -1,0 +1,2111 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 7870
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+0. 841.8899999999999864 595.2799999999999727 -240.9448818897637921 re
+f
+0.88 0.11 0.28 rg
+0. 600.9451181102361943 595.2799999999999727 -11.3385826771653555 re
+f
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.984 0.443 0.522 rg
+51.0236220472441033 756.8506299212598378 Td
+(MANUAL DE ADMINISTRACIÓN DEFINITIVO) Tj
+ET
+BT
+/F2 24 Tf
+27.5999999999999979 TL
+1. g
+51.0236220472441033 717.1655905511811397 Td
+(GastroPOS Suite v2.1) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.886 0.91 0.941 rg
+51.0236220472441033 683.1498425196850803 Td
+(Guía Integral de Arquitectura, Configuración, Fiscalidad y Seguridad RBAC) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 643.4648031496062686 Td
+(Dirección de Operaciones & Arquitectura de Software GastroPOS | Octubre 2026) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+59.5275590551181182 552.7561417322833677 m
+535.7524409448818687 552.7561417322833677 l
+540.4490356678522858 552.7561417322833677 544.2563779527558836 548.9487994473798835 544.2563779527558836 544.2522047244093528 c
+544.2563779527558836 453.5435433070865656 l
+544.2563779527558836 448.8469485841160349 539.5597832297853529 445.0396062992125508 535.7524409448818687 445.0396062992125508 c
+59.5275590551181182 445.0396062992125508 l
+54.8309643321475875 445.0396062992125508 51.0236220472441033 449.7362010221830246 51.0236220472441033 453.5435433070865656 c
+51.0236220472441033 544.2522047244093528 l
+51.0236220472441033 548.9487994473798835 55.7202167702146269 552.7561417322833677 59.5275590551181182 552.7561417322833677 c
+h
+B
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.09 0.165 rg
+68.031496062992133 530.0789763779526993 Td
+(Ficha Técnica de Gobernanza y Administración) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 507.4018110236219741 Td
+(• Destinatarios: Administradores, Gerentes de Operaciones, Jefes de Sala y Asesores) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 490.3939370078739444 Td
+(• Alcance: Configuración total, topología de sala, escandallos, fiscalidad y Ley Antifraude 11/2021) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 473.3860629921259147 Td
+(• Versión: Release 2.1 Oficial \(Arquitectura Híbrida Offline-First con Dexie y Supabase\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+68.031496062992133 456.378188976377885 Td
+(• Seguridad: Control de Acceso Basado en Roles \(RBAC\), logs auditables y firma inmutable) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 411.0238582677164914 Td
+(1. Portada y Metadatos de Administración) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 401.1025984251967884 m
+544.2563779527558836 401.1025984251967884 l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 386.929370078740078 Td
+(• Título Oficial del Documento: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+183.0536220472440903 386.929370078740078 Td
+(GastroPOS Suite - Master Administration & Technical Governance Manual.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 373.3230708661416202 Td
+(• Subtítulo Estratégico: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+152.2736220472440891 373.3230708661416202 Td
+(Guía Integral de Arquitectura, Configuración, Gestión Fiscal, Control de Sala, Cocina y Seguridad) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 361.1340944881888504 Td
+(RBAC.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 347.5277952755903925 Td
+(• Versión del Software: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+150.1136220472441209 347.5277952755903925 Td
+(Release 2.1 Oficial \(Arquitectura Híbrida Offline-First con Dexie IndexedDB y Sincronización) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 335.3388188976376227 Td
+(Supabase PostgreSQL\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 321.7325196850391649 Td
+(• Fecha de Edición y Vigencia: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+181.9736220472440777 321.7325196850391649 Td
+(Octubre de 2026.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 308.1262204724406502 Td
+(• Nivel de Confidencialidad: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+171.35362204724413 308.1262204724406502 Td
+(Uso Interno Exclusivo para Gerencia, Directores de Operaciones, Administradores de) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 295.9372440944879372 Td
+(Sistemas, Jefes de Sala y Asesores Contables.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 282.3309448818894225 Td
+(• Destinatarios: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+118.883622047244117 282.3309448818894225 Td
+(Administradores Generales, Directores de Restauración, Jefes de Operaciones, Responsables de) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 270.1419685039365959 Td
+(Compras y Auditores de Sistemas.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 256.5356692913381949 Td
+(• Alcance del Manual: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+145.3436220472441107 256.5356692913381949 Td
+(Esta documentación cubre la totalidad de directrices técnicas, gobernanza de datos,) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 244.3466929133853682 Td
+(parametrización de hardware periférico, auditoría antifraude bajo la Ley 11/2021 y control financiero avanzado de) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 232.1577165354326553 Td
+(GastroPOS Suite.) Tj
+ET
+0.97 0.98 0.99 rg
+0.8 0.84 0.88 RG
+0.8503937007874016 w
+58.1102362204724443 218.5514173228341406 m
+537.1697637795274431 218.5514173228341406 l
+539.5180611410127085 218.5514173228341406 541.4217322834645074 216.6477461803823701 541.4217322834645074 214.2994488188971332 c
+541.4217322834645074 181.9844881889758597 l
+541.4217322834645074 179.6361908274905943 539.0734349219792421 177.7325196850388522 537.1697637795274431 177.7325196850388522 c
+58.1102362204724443 177.7325196850388522 l
+55.7619388589871789 177.7325196850388522 53.8582677165354369 180.0808170465240892 53.8582677165354369 181.9844881889758597 c
+53.8582677165354369 214.2994488188971332 l
+53.8582677165354369 216.6477461803823701 56.2065650780207093 218.5514173228341406 58.1102362204724443 218.5514173228341406 c
+h
+B
+0.88 0.11 0.28 rg
+53.8582677165354369 218.5514173228341406 7.0866141732283472 -40.8188976377952812 re
+f
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+70.8661417322834666 205.7955118110231751 Td
+(Nota de Gobernanza y Seguridad: El acceso a las pantallas de configuración y analítica descritas en este manual debe) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+70.8661417322834666 193.8899999999995316 Td
+(estar estrictamente restringido a usuarios con rol 'admin' o permisos específicos asignados en la matriz RBAC.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 155.0553543307081554 Td
+(2. Arquitectura del Sistema y Resiliencia Operativa) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 145.1340944881884525 m
+544.2563779527558836 145.1340944881884525 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 122.4569291338577841 Td
+(2.1 Filosofía Híbrida Offline-First) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+166.5999999999999091 22.6771653543306684 Td
+(Página 1 de 5 — GastroPOS Suite v2.1 | Manual de Administración Oficial) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 11584
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administración Definitivo) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 762.5199212598424765 Td
+(GastroPOS Suite está concebida para operar sin interrupciones incluso ante caídas totales del suministro de Internet o) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 750.3309448818897636 Td
+(averías del router local. A diferencia de los TPVs convencionales en la nube que quedan inutilizados sin conexión:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 736.7246456692913625 Td
+(• Persistencia Local Inmediata \(Dexie IndexedDB\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+266.7536220472441073 736.7246456692913625 Td
+(Cada creación de comanda, modificación de plato, cambio de estado) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 724.5356692913385359 Td
+(en KDS o cobro se almacena localmente en milisegundos en la base de datos indexada del navegador.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 710.9293700787401349 Td
+(• Canales Reactivos en Tiempo Real \(Supabase Realtime WebSockets\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+354.5936220472441391 710.9293700787401349 Td
+(En condiciones normales de conexión, los) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 698.7403937007874219 Td
+(terminales suscritos intercambian eventos de sala, cocina y caja de forma instantánea mediante canales WebSockets) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 686.5514173228345953 Td
+(seguros \(WSS\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 672.945118110236308 Td
+(• Cola Transaccional Inteligente \(SyncQueue\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+247.7636220472440414 672.945118110236308 Td
+(Cuando el sistema detecta pérdida de red, activa el modo autónomo y) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 660.7561417322834814 Td
+(encola cada mutación. Al restaurarse la conexión, la cola se vacía de manera ordenada resolviendo marcas de tiempo) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 648.5671653543307684 Td
+(sin duplicar tickets ni generar descuadres contables.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 626.4569291338583525 Td
+(2.2 Seguridad, Privacidad y Almacenamiento Local) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 613.7010236220472734 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 613.7010236220472734 Td
+(Las claves y tokens de sincronización se gestionan mediante variables de entorno protegidas.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 600.0947244094488724 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 600.0947244094488724 Td
+(Los datos de auditoría se almacenan con sellos temporales inmutables \(timestamp UTC\) vinculados al ID del usuario) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 587.9057480314961595 Td
+(autenticado.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 574.2994488188976447 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 574.2994488188976447 Td
+(El visor de cliente \(CFD\) y los canales de comunicación local utilizan Broadcast Channels en memoria sin exponer datos) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 562.1104724409449318 Td
+(confidenciales a la red pública.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 537.1655905511811397 Td
+(3. Gestión de Personal, Seguridad y Matriz RBAC) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 527.2443307086615505 m
+544.2563779527558836 527.2443307086615505 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 504.5671653543307684 Td
+(3.1 Modelo de Control de Acceso Basado en Roles \(RBAC\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 491.8112598425197461 Td
+(La suite implementa un modelo jerárquico de permisos granulares que delimita las atribuciones de cada empleado:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 478.2049606299213451 Td
+(• Rol Administrador \(admin\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+175.493622047244088 478.2049606299213451 Td
+(Acceso irrestricto a todas las funcionalidades del sistema, incluyendo analítica financiera,) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 466.0159842519685753 Td
+(P&L, Cierre Z, escandallos, tarifas, configuración de impresoras y gestión de usuarios.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 452.4096850393701175 Td
+(• Rol Camarero / Personal de Sala \(waiter\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+234.6236220472441119 452.4096850393701175 Td
+(Acceso optimizado al Plano de Mesas y TPV. Puede abrir comandas,) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 440.2207086614172908 Td
+(seleccionar formatos, indicar alérgenos, enviar a cocina y procesar cobros estándar.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 426.614409448818833 Td
+(• Rol Cocina / Jefe de Partida \(kitchen\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+220.0436220472440993 426.614409448818833 Td
+(Acceso exclusivo a la pantalla KDS de pedidos en tiempo real. Puede avanzar) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 414.4254330708660632 Td
+(estados de preparación y filtrar por estación de trabajo.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 400.8191338582676053 Td
+(• Rol Demostración / Formación \(tour\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+218.333622047244063 400.8191338582676053 Td
+(Permite la formación interactiva de aprendices en un entorno simulado sin riesgo) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 388.6301574803147787 Td
+(de alterar las bases de datos fiscales o el stock real.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 366.519921259842306 Td
+(3.2 Catálogo de Permisos Granulares) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 353.7640157480312837 Td
+(1. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 353.7640157480312837 Td
+(can_manage_settings: Habilita el acceso al panel global de Configuración y Marca Blanca.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 340.7246456692911352 Td
+(2. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 340.7246456692911352 Td
+(can_view_analytics: Permite consultar los informes de ventas, P&L e histórico de facturación.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 327.6852755905509866 Td
+(3. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 327.6852755905509866 Td
+(can_manage_inventory: Autoriza la edición de escandallos, costes de ingredientes y recepción de albaranes.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 314.6459055118108381 Td
+(4. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 314.6459055118108381 Td
+(can_manage_cash: Permite registrar movimientos manuales de caja y ejecutar el Cierre Diario Z.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 301.6065354330706896 Td
+(5. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 301.6065354330706896 Td
+(can_void_orders: Autoriza la anulación de platos o comandas una vez enviadas a cocina.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 288.567165354330541 Td
+(6. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 288.567165354330541 Td
+(can_apply_discounts: Faculta la aplicación de descuentos comerciales porcentuales o en importe fijo.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 267.0238582677163777 Td
+(3.3 Protocolo de Asignación y Recuperación de PIN) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 254.2679527559054122 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 254.2679527559054122 Td
+(Cada empleado dispone de un PIN único e intransferible de 4 dígitos.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 240.6616535433068975 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 240.6616535433068975 Td
+(Para dar de alta o modificar un PIN:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 227.0553543307084965 Td
+(1. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 227.0553543307084965 Td
+(Acceda a Configuración > Gestión de Usuarios.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 214.015984251968348 Td
+(2. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 214.015984251968348 Td
+(Pulse 'Nuevo Usuario' o 'Editar'.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 200.9766141732281994 Td
+(3. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 200.9766141732281994 Td
+(Introduzca nombre, rol y el código PIN de 4 dígitos.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 187.9372440944880509 Td
+(4. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 187.9372440944880509 Td
+(Guarde los cambios; el sistema los sincroniza de inmediato en toda la red de terminales.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 174.8978740157479024 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 174.8978740157479024 Td
+(En caso de 5 intentos erróneos consecutivos en el PinPad, el terminal activa un bloqueo temporal disuasorio de 30) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 162.7088976377950758 Td
+(segundos.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 137.7640157480312837 Td
+(4. Topología de Sala, Zonas y Configuración de Mesas) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 127.8427559055116092 m
+544.2563779527558836 127.8427559055116092 l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+166.5999999999999091 22.6771653543306684 Td
+(Página 2 de 5 — GastroPOS Suite v2.1 | Manual de Administración Oficial) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 10575
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administración Definitivo) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 754.0159842519684616 Td
+(4.1 Definición de Ambientes y Zonas de Servicio) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 741.2600787401574962 Td
+(GastroPOS Suite permite estructurar el espacio físico del establecimiento en zonas lógicas para adaptar la operativa a las) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 729.0711023622046696 Td
+(características de cada área:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 715.4648031496062686 Td
+(• Salón Principal / Comedor: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+173.9636220472440868 715.4648031496062686 Td
+(Servicio formal de mesa con comanda secuenciada \(primeros, segundos, postres\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 701.8585039370078675 Td
+(• Terraza / Espacios Exteriores: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+186.2036220472441244 701.8585039370078675 Td
+(Servicio dinámico con control visual de tiempos de estancia y opciones de recargo por) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 689.6695275590551546 Td
+(terraza.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 676.0632283464567536 Td
+(• Barra / Taberna: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+126.3536220472440874 676.0632283464567536 Td
+(Venta rápida por consumición directa con rotación continua.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 662.4569291338582389 Td
+(• Reservados y Plantas Superiores: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+203.9336220472441425 662.4569291338582389 Td
+(Atención de grupos con comanda predeterminada y cierre consolidado.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 640.346692913385823 Td
+(4.2 Topología Relacional de Mesas: Motor Padre-Hijo \(Parent-Child\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 627.5907874015748575 Td
+(Para banquetes, eventos y grupos numerosos, el sistema incorpora un algoritmo nativo de agrupación de mesas:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 613.9844881889764565 Td
+(• Unión de Mesas \(Long Press 600ms\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+217.9736220472441346 613.9844881889764565 Td
+(El encargado mantiene pulsada una mesa en el plano durante 600 milisegundos) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 601.7955118110236299 Td
+(para activar el modo de selección múltiple, toca las mesas a juntar y confirma la unión.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 588.1892125984252289 Td
+(• Designación de Mesa Maestra: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+189.5336220472441653 588.1892125984252289 Td
+(El algoritmo designa automáticamente como matriz la mesa que ya contenía un pedido) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 576.0002362204725159 Td
+(activo. Si varias tenían consumos previos, sus líneas de comanda se fusionan de forma transparente manteniendo la) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 563.811259842519803 Td
+(trazabilidad del camarero original.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 550.2049606299212883 Td
+(• Desunión Segura: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+135.8936220472441221 550.2049606299212883 Td
+(Al separar mesas agrupadas, la mesa hija recupera su estado disponible en el plano, mientras que los) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 538.0159842519685753 Td
+(consumos consolidados permanecen a buen recaudo en la comanda maestra para evitar descuadres de cobro.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 513.0711023622047833 Td
+(5. Administración de Inventario, Escandallos y Valoración de Existencias) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 503.1498425196851372 m
+544.2563779527558836 503.1498425196851372 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 480.472677165354412 Td
+(5.1 Catálogo Maestro de Productos y Recetas Compuestas) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 467.7167716535433897 Td
+(El inventario admite dos tipologías fundamentales de artículos:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 454.1104724409449318 Td
+(• Artículos Simples \(Mercaderías\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+198.6236220472441687 454.1104724409449318 Td
+(Productos que se compran y venden sin transformación \(refrescos, cervezas, vinos) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 441.921496062992162 Td
+(embotellados\). El stock se descuenta en unidades exactas \(1:1\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 428.3151968503937042 Td
+(• Artículos Compuestos \(Elaboraciones de Cocina\): ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+272.8736220472441119 428.3151968503937042 Td
+(Platos que integran múltiples ingredientes mediante una ficha) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 416.1262204724409344 Td
+(técnica de escandallo \(ej. Paella de Mariscos, Hamburguesa Gourmet, Solomillo Ibérico\).) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 394.0159842519684616 Td
+(5.2 Factor de Rendimiento \(Yield Management\) y Mermas) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 381.2600787401574394 Td
+(• Fórmula de Rendimiento: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+167.4836220472440971 381.2600787401574394 Td
+(Rendimiento \(%\) = \(Peso Neto Aprovechable / Peso Bruto Comprado\) * 100.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 367.6537795275589815 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 367.6537795275589815 Td
+(Al configurar una receta, el administrador indica el porcentaje de aprovechamiento. Si una pieza de carne sufre un 15%) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 355.4648031496061549 Td
+(de merma en limpieza y despiece, se fija un Yield del 85%.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 341.858503937007697 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 341.858503937007697 Td
+(El sistema calcula automáticamente el Coste Real de Materia Prima ponderando la merma, lo que asegura que el) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 329.6695275590549272 Td
+(margen sobre el PVP sea exacto y realista.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 307.5592913385823977 Td
+(5.3 Recepción de Albaranes y Precio Medio Ponderado \(PMP\)) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 294.8033858267714322 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 294.8033858267714322 Td
+(Al registrar una factura o albarán de compra en 'Albaranes de Entrada', el sistema actualiza el stock físico y aplica la) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 282.6144094488186056 Td
+(fórmula legal del Precio Medio Ponderado:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 269.0081102362202046 Td
+(PMP = [\(Stock Anterior * Coste Anterior\) + \(Cantidad Entrada * Coste Entrada\)] / \(Stock Anterior + Cantidad Entrada\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 255.4018110236216899 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 255.4018110236216899 Td
+(Esta valoración actualiza en cascada el coste de todos los escandallos donde interviene dicho ingrediente, garantizando) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 243.2128346456689769 Td
+(la fiabilidad del margen bruto en el análisis de explotación.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 218.2679527559050712 Td
+(6. Ingeniería de Menú y Maximización de Margen \(Matriz BCG\)) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 208.3466929133854251 m
+544.2563779527558836 208.3466929133854251 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 185.6695275590546999 Td
+(6.1 Fundamentos de la Matriz Kasavana & Smith) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 172.9136220472437344 Td
+(El módulo cruza en tiempo real dos variables críticas: Popularidad \(unidades vendidas\) y Margen de Contribución Unitario) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 160.7246456692909078 Td
+(\(PVP - Coste de Ingrediente\):) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 147.1183464566923931 Td
+( •  +P   C u a d r a n t e   E s t r e l l a s   \( A l t a   P o p u l a r i d a d ,   A l t o   M a r g e n \) :  ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+290.4236220472441232 147.1183464566923931 Td
+(Son los pilares de rentabilidad del restaurante. Directriz:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 134.9293700787396801 Td
+(Mantener calidad estricta, ubicación destacada en carta y formación del personal para su venta prioritaria.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+166.5999999999999091 22.6771653543306684 Td
+(Página 3 de 5 — GastroPOS Suite v2.1 | Manual de Administración Oficial) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 11217
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administración Definitivo) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 762.5199212598424765 Td
+( •  Ø=Ü   C u a d r a n t e   V a c a s   L e c h e r a s   \( A l t a   P o p u l a r i d a d ,   B a j o   M a r g e n \) :  ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+326.9636220472442005 762.5199212598424765 Td
+(Platos muy demandados pero con bajo margen) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 750.3309448818897636 Td
+(unitario. Directriz: Aumentar el PVP de forma paulatina \(0,30 € - 0,60 €\), renegociar precios de ingredientes o ajustar el) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 738.1419685039370506 Td
+(gramaje de guarniciones.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 724.5356692913385359 Td
+( •  'S   C u a d r a n t e   I n t e r r o g a n t e s   \( B a j a   P o p u l a r i d a d ,   A l t o   M a r g e n \) :  ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+312.3836220472441028 724.5356692913385359 Td
+(Recetas rentables que los clientes apenas conocen.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 712.346692913385823 Td
+(Directriz: Mejorar su posición visual en la carta, sugerirlos como recomendación del día o rediseñar su denominación) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 700.15771653543311 Td
+(gastronómica.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 686.5514173228345953 Td
+( •  Ø=Ü   C u a d r a n t e   P e r r o s   \( B a j a   P o p u l a r i d a d ,   B a j o   M a r g e n \) :  ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+290.5136220472440982 686.5514173228345953 Td
+(Platos que consumen inventario y mano de obra sin aportar) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 674.3624409448818824 Td
+(beneficio ni volumen. Directriz: Reformular su receta o eliminarlos definitivamente de la oferta gastronómica.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 652.2522047244094665 Td
+(6.2 Simulador Interactivo What-If) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 639.4962992125983874 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 639.4962992125983874 Td
+(Permite proyectar el impacto económico de variar el precio o el coste de un plato antes de imprimir nuevas cartas físicas.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 625.8900000000001 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 625.8900000000001 Td
+(El administrador ajusta los controles deslizantes y el motor calcula la variación estimada de facturación y beneficio bruto) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 613.7010236220472734 Td
+(mensual basándose en el histórico de consumo.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 588.7561417322834814 Td
+(7. Tesorería, Fiscalidad Legal y Cumplimiento Antifraude \(Ley 11/2021\)) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 578.8348818897638921 m
+544.2563779527558836 578.8348818897638921 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 556.15771653543311 Td
+(7.1 Marco Legal y Ley Antifraude 11/2021 \(VeriFactu / TicketBAI\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 543.4018110236220309 Td
+(GastroPOS Suite cumple con las exigencias normativas españolas relativas a la inalterabilidad, trazabilidad y conservación) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+51.0236220472441033 531.212834645669318 Td
+(de registros de facturación:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 517.606535433070917 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 517.606535433070917 Td
+(Cada ticket emitido cuenta con un identificador unívoco y un registro secuencial correlativo sin saltos de numeración.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 504.0002362204725159 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 504.0002362204725159 Td
+(Los tickets cerrados quedan bloqueados contra edición retroactiva.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 490.3939370078741149 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 490.3939370078741149 Td
+(Cualquier modificación posterior \(anulación justificada, devolución parcial o emisión de factura rectificativa\) genera un) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 478.2049606299213451 Td
+(contra-asiento auditable con fecha, hora y usuario responsable.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 456.0947244094488724 Td
+(7.2 Ciclo de Vida de Caja: Arqueo Ciego y Cierre Diario Z) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 443.3388188976378501 Td
+(• Apertura de Turno: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+138.7736220472440891 443.3388188976378501 Td
+(Registro del fondo inicial de maniobra para cambio en monedas y billetes.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 429.7325196850393922 Td
+(• Movimientos Extraordinarios: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+185.7536220472441357 429.7325196850393922 Td
+(Registro obligatorio con concepto justificativo de cualquier extracción de efectivo) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 417.5435433070865656 Td
+(\(adelantos, compras urgentes de cocina\) o entrada de cambio exterior.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 403.9372440944881077 Td
+(• Arqueo Ciego: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+121.0436220472440993 403.9372440944881077 Td
+(El cajero cuenta el dinero sin conocer la cifra calculada por el sistema. Esta práctica suprime cualquier) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 391.748267716535338 Td
+(posibilidad de manipulación o redondeo forzado.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 378.1419685039368801 Td
+(• Cierre Diario Z Oficial: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+154.0736220472441005 378.1419685039368801 Td
+(Liquidación fiscal definitiva que consolida las ventas brutas, bases imponibles desglosadas por) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 365.9529921259841103 Td
+(tipo de IVA \(4%, 10%, 21%\), pagos con tarjeta, efectivo y descuadre real de tesorería.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 343.8427559055116376 Td
+(7.3 Modelos Tributarios \(303 y 347\)) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 331.0868503937006153 Td
+(• Preparación del Modelo 303: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+180.7136220472440868 331.0868503937006153 Td
+(Desglose automático de IVA Devengado en sala y comanda frente a IVA Soportado) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 318.8978740157477887 Td
+(deducible en albaranes procesados.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 305.2915748031493877 Td
+(• Detección para Modelo 347: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+177.6536220472440846 305.2915748031493877 Td
+(Identificación automática de proveedores con operaciones acumuladas que superen los) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 293.102598425196561 Td
+(3.005,06 € en el año fiscal.) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 268.157716535432769 Td
+(8. Periféricos, Impresión Bluetooth ESC/POS y Marca Blanca) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 258.236456692913066 m
+544.2563779527558836 258.236456692913066 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 235.5592913385823977 Td
+(8.1 Conectividad Web Bluetooth API para Impresoras Térmicas) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 222.8033858267713185 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 222.8033858267713185 Td
+(Compatible con comanderas de 80mm y 58mm bajo protocolo estándar ESC/POS.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 209.1970866141728038 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 209.1970866141728038 Td
+(Vinculación directa desde el navegador web sin necesidad de controladores propietarios complejos ni software) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 197.0081102362200909 Td
+(intermediario \(middleware\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 183.4018110236215762 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 183.4018110236215762 Td
+(Envío automático de pulso eléctrico por patilla RJ11 para apertura del cajón portamonedas en cada cobro en metálico.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 161.2915748031491603 Td
+(8.2 Personalización de Marca Blanca \(White-Label\)) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 148.5356692913380812 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 148.5356692913380812 Td
+(En Configuración > Marca Blanca, el administrador puede:) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 134.9293700787396801 Td
+(1. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 134.9293700787396801 Td
+(Cargar el logotipo institucional del restaurante \(PNG transparente\).) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 121.8899999999995316 Td
+(2. ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 121.8899999999995316 Td
+(Establecer el color primario de marca \(CSS Hexadecimal\).) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+166.5999999999999091 22.6771653543306684 Td
+(Página 4 de 5 — GastroPOS Suite v2.1 | Manual de Administración Oficial) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 2886
+>>
+stream
+1.1338582677165356 w
+0.89 0.91 0.94 RG
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+51.0236220472441033 790.8663779527558972 Td
+(GastroPOS Suite | Manual de Administración Definitivo) Tj
+ET
+0.89 0.91 0.94 RG
+0.8503937007874016 w
+51.0236220472441033 785.1970866141731449 m
+544.2563779527558836 785.1970866141731449 l
+S
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 762.5199212598424765 Td
+(3. ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 762.5199212598424765 Td
+(Configurar los datos de la empresa: Razón Social, CIF/NIF, Dirección fiscal, Registro Mercantil y pie de ticket) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+66.6829133858267795 750.3309448818897636 Td
+(personalizado con información de protección de datos \(RGPD\).) Tj
+ET
+BT
+/F2 12.5 Tf
+14.3749999999999982 TL
+0.882 0.114 0.282 rg
+51.0236220472441033 725.952992125984224 Td
+(9. Políticas de Copias de Seguridad, Mantenimiento y Soporte L2) Tj
+ET
+0.89 0.91 0.94 RG
+1.1338582677165356 w
+51.0236220472441033 716.0317322834645211 m
+544.2563779527558836 716.0317322834645211 l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 701.8585039370078675 Td
+(• Políticas de Respaldo: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+154.7936220472440709 701.8585039370078675 Td
+(El sistema almacena copias de seguridad continuas en la base de datos Supabase en la nube.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 689.6695275590550409 Td
+(Localmente, la base de datos Dexie mantiene la última réplica persistente en el dispositivo.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 676.0632283464566399 Td
+(• Protocolo ante Caída de Red: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+184.2236220472441346 676.0632283464566399 Td
+(No reiniciar el navegador ni borrar cookies o datos de sitio durante un corte de red.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 663.8742519685039269 Td
+(Mantener el terminal operando en modo local; la cola se sincronizará automáticamente al restablecerse la conectividad.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 650.2679527559055259 Td
+(• Canal de Soporte L2 para Administradores: ) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+244.0736220472441005 650.2679527559055259 Td
+(Email directo: soporte@gastropos.local | Guardia telefónica de emergencia) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.278 0.333 0.412 rg
+62.3622047244094517 638.078976377952813 Td
+(24/7 para incidencias críticas en servicio.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+166.5999999999999091 22.6771653543306684 Td
+(Página 5 de 5 — GastroPOS Suite v2.1 | Manual de Administración Oficial) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R ]
+/Count 5
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 13 0 R
+/F2 14 0 R
+/F3 15 0 R
+/F4 16 0 R
+/F5 17 0 R
+/F6 18 0 R
+/F7 19 0 R
+/F8 20 0 R
+/F9 21 0 R
+/F10 22 0 R
+/F11 23 0 R
+/F12 24 0 R
+/F13 25 0 R
+/F14 26 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+27 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261018175747-00'00')
+>>
+endobj
+28 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 29
+0000000000 65535 f 
+0000045100 00000 n 
+0000046947 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000008074 00000 n 
+0000008211 00000 n 
+0000019848 00000 n 
+0000019985 00000 n 
+0000030613 00000 n 
+0000030751 00000 n 
+0000042022 00000 n 
+0000042161 00000 n 
+0000045182 00000 n 
+0000045308 00000 n 
+0000045439 00000 n 
+0000045573 00000 n 
+0000045711 00000 n 
+0000045835 00000 n 
+0000045964 00000 n 
+0000046096 00000 n 
+0000046232 00000 n 
+0000046360 00000 n 
+0000046487 00000 n 
+0000046616 00000 n 
+0000046749 00000 n 
+0000046851 00000 n 
+0000047200 00000 n 
+0000047286 00000 n 
+trailer
+<<
+/Size 29
+/Root 28 0 R
+/Info 27 0 R
+/ID [ <8078FC6BFBBE427BF56E1924A68D6F3F> <8078FC6BFBBE427BF56E1924A68D6F3F> ]
+>>
+startxref
+47390
+%%EOF

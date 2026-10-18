@@ -20,6 +20,7 @@ import {
   Loader2
 } from 'lucide-react';
 import { USER_MANUAL_CONTENT } from './userManualContent';
+import { ADMIN_MASTER_MANUAL_CONTENT } from './adminMasterManualContent';
 
 type DocTab = 'admin' | 'usuario';
 
@@ -524,6 +525,31 @@ El motor analítico consulta reactivamente IndexedDB (Dexie.js) y Supabase para 
 
 const MANUALS: ManualDoc[] = [
   {
+    id: 'admin_general_master',
+    title: 'Manual de Administración Definitivo: GastroPOS Suite',
+    subtitle: 'Guía Integral de Arquitectura, Configuración, Fiscalidad, Sala, Cocina y Seguridad RBAC',
+    category: 'admin',
+    version: '2.1 Oficial',
+    pages: 5,
+    pdfUrl: '/manual_general_administrador.pdf',
+    filename: 'manual_general_administrador.pdf',
+    date: 'Octubre 2026',
+    badge: 'Manual Definitivo de Administración',
+    summary: 'Documento directivo y técnico de máximo nivel para Gerencia y Administradores de GastroPOS Suite. Detalla la arquitectura Offline-First (Dexie + Supabase), gestión de personal con matriz de permisos RBAC, configuración de topología de sala, escandallos con factor de rendimiento (Yield), albaranes y PMP, ingeniería de menú BCG, tesorería, cumplimiento de la Ley Antifraude 11/2021 (VeriFactu), periféricos Bluetooth ESC/POS y políticas de contingencia.',
+    topics: [
+      '1. Portada, Metadatos de Gobernanza y Alcance Técnico',
+      '2. Arquitectura Offline-First, Sincronización WebSockets y SyncQueue',
+      '3. Gestión de Personal, Seguridad y Matriz de Permisos RBAC',
+      '4. Topología de Sala, Ambientes y Enlace Relacional de Mesas',
+      '5. Catálogo Maestro, Escandallos (Yield %), Mermas y Albaranes (PMP)',
+      '6. Ingeniería de Menú (Matriz BCG), Food Cost y Simulador What-If',
+      '7. Tesorería, Cierre Z, Arqueo Ciego y Cumplimiento Ley Antifraude 11/2021',
+      '8. Periféricos ESC/POS, Impresoras Bluetooth y Marca Blanca',
+      '9. Políticas de Respaldo, Mantenimiento y Soporte Técnico L2'
+    ],
+    fullContentMarkdown: ADMIN_MASTER_MANUAL_CONTENT
+  },
+  {
     id: 'admin_plano_mesas',
     title: 'Manual de Administración: Módulo Plano de Mesas',
     subtitle: 'Gestión de Zonas, Topología de Sala, Fusión, Traspaso y Operativa',
@@ -532,7 +558,7 @@ const MANUALS: ManualDoc[] = [
     pages: 5,
     pdfUrl: '/manual_plano_de_mesas.pdf',
     filename: 'manual_plano_de_mesas.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Arquitectura & Sala',
     summary: 'Documento técnico integral que detalla la arquitectura Offline-First con IndexedDB, sincronización WebSocket en tiempo real, ciclo de vida de mesas, motor de fusión y enlace padre-hijo, traspasos con merge de comandas y auditoría inmutable.',
     topics: [
@@ -556,7 +582,7 @@ const MANUALS: ManualDoc[] = [
     pages: 4,
     pdfUrl: '/manual_modulo_cocina.pdf',
     filename: 'manual_modulo_cocina.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Cocina & KDS',
     summary: 'Documentación exhaustiva sobre la arquitectura del sistema de pantallas de cocina (KDS): enrutamiento por estaciones (Cocina/Barra), semaforización cromática temporal, algoritmo FIFO por oldestItemTime, notas críticas de alérgenos y permisos RBAC.',
     topics: [
@@ -580,7 +606,7 @@ const MANUALS: ManualDoc[] = [
     pages: 4,
     pdfUrl: '/manual_visor_de_cliente.pdf',
     filename: 'manual_visor_de_cliente.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Visor & Pantalla',
     summary: 'Arquitectura completa del Visor de Cliente (CFD): canal broadcast de ultrabaja latencia (cfd-sync), protocolo de handshake PING/PONG, despliegue en doble monitor HDMI o tablets en peana, marca blanca y código QR dinámico para pagos móviles.',
     topics: [
@@ -604,7 +630,7 @@ const MANUALS: ManualDoc[] = [
     pages: 5,
     pdfUrl: '/manual_inventario_y_carta.pdf',
     filename: 'manual_inventario_y_carta.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Inventario & Escandallos',
     summary: 'Guía técnica y operativa integral del módulo más crítico de GastroPOS Suite: catálogo de productos simples y compuestos, escandallos con factor de rendimiento (%), recepción de albaranes con recálculo de PMP, mermas, órdenes automáticas, códigos de barras e inmutabilidad legal antifraude.',
     topics: [
@@ -630,7 +656,7 @@ const MANUALS: ManualDoc[] = [
     pages: 4,
     pdfUrl: '/manual_ingenieria_menu.pdf',
     filename: 'manual_ingenieria_menu.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Rentabilidad & Matriz BCG',
     summary: 'Guía metodológica y técnica del motor de optimización de rentabilidad de GastroPOS Suite: cruce de escandallos con ventas reales del TPV, clasificación en 4 cuadrantes BCG (Kasavana & Smith), semáforo de food cost, recálculo masivo de PVP con margen objetivo, simulador interactivo What-If y auditoría estratégica con Google Gemini 3.8.',
     topics: [
@@ -657,7 +683,7 @@ const MANUALS: ManualDoc[] = [
     pages: 4,
     pdfUrl: '/manual_gestion_caja.pdf',
     filename: 'manual_gestion_caja.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Tesorería & Cierre Z',
     summary: 'Guía técnica y operativa completa para el control de efectivo en GastroPOS Suite: ciclo de vida de caja (apertura, movimientos extraordinarios, ventas en metálico y cierre Z ciego), fórmula algorítmica de saldo esperado, detección de descuadres, apertura remota de cajón por pulsos ESC/POS Web Bluetooth y cumplimiento de la Ley Antifraude 11/2021.',
     topics: [
@@ -683,7 +709,7 @@ const MANUALS: ManualDoc[] = [
     pages: 4,
     pdfUrl: '/manual_finanzas_analitica.pdf',
     filename: 'manual_finanzas_analitica.pdf',
-    date: 'Septiembre 2026',
+    date: 'Octubre 2026',
     badge: 'Finanzas & Fiscal',
     summary: 'Documentación técnica y directiva completa del módulo de Finanzas y Analítica: Dashboard de KPIs en vivo, cálculo del Coste de Ventas (COGS) y Margen Bruto, segmentación por horas/camarero/zona con Recharts, Cierre Z legal, liquidación de IVA trimestral (Repercutido vs. Soportado), Modelo 347 y anulación justificada de tickets conforme a la Ley Antifraude.',
     topics: [
@@ -702,30 +728,24 @@ const MANUALS: ManualDoc[] = [
   },
   {
     id: 'user_tpv_general',
-    title: 'Guía de Usuario Rápida y Completa: GastroPOS Suite',
-    subtitle: 'Manual Operativo Integral para Personal de Sala, Barra, Cocina, Caja y Encargados',
+    title: 'Manual de Usuario Definitivo: GastroPOS Suite',
+    subtitle: 'Guía Oficial de Operaciones, Configuración, Control de Sala, Cocina y Gestión Fiscal',
     category: 'usuario',
     version: '2.1 Oficial',
-    pages: 20,
+    pages: 9,
     pdfUrl: '/manual_general_usuario.pdf',
     filename: 'manual_general_usuario.pdf',
-    date: 'Septiembre 2026',
-    badge: 'Guía Integral de Usuario',
-    summary: 'Manual operativo exhaustivo y estructurado que cubre la totalidad de módulos de GastroPOS Suite: Control de acceso con PIN, Dashboard, Plano de Mesas y uniones, TPV y modificadores, Cobros y cuentas divididas, Pantalla de Cocina (KDS), Visor de Cliente (CFD), Gestión de Caja y Cierre Z, Inventario y Escandallos, Ingeniería de Menú (BCG), Analítica e Impuestos, Configuración y Recorrido Integral de principio a fin.',
+    date: 'Octubre 2026',
+    badge: 'Manual Definitivo Oficial',
+    summary: 'Manual de usuario exhaustivo redactado bajo los estándares más exigentes de UX y documentación técnica de software. Estructurado en 7 secciones oficiales: Portada y Metadatos, Introducción y Bienvenida, Requisitos y Primeros Pasos, Guía de la Interfaz, Funcionalidades Paso a Paso (11 módulos con Objetivo, Pasos numerados, Tips y Notas de advertencia), Preguntas Frecuentes (FAQ) y Centro de Soporte.',
     topics: [
-      'Control de Acceso y Autenticación (PinPad & Roles)',
-      'Panel de Control Principal (Dashboard Central)',
-      'Plano de Mesas, Zonas y Fusión/Desunión (TablePlan)',
-      'Terminal Punto de Venta (TPV), Formatos y Alérgenos',
-      'Gestión de Cobros, Pagos Divididos y Facturación',
-      'Pantalla de Cocina y Barra (KDS) y Semáforos SLA',
-      'Visor de Cliente (CFD) y Códigos QR de Pago',
-      'Gestión de Caja, Arqueo Ciego y Cierre Diario Z',
-      'Inventario, Escandallos (Yield) y Recepción de Albaranes (PMP)',
-      'Ingeniería de Menú (Matriz BCG, Food Cost y Simulador What-If)',
-      'Finanzas, P&L, Cierre Z, Impuestos e Informe Antifraude',
-      'Configuración de Usuarios (RBAC), Impresoras Bluetooth y Marca Blanca',
-      'Recorrido Integral de Principio a Fin (Flujo Maestro del Restaurante)'
+      '1. Portada y Metadatos de la Versión 2.1 Oficial',
+      '2. Introducción, Bienvenida y Beneficios Offline-First',
+      '3. Requisitos del Sistema, Navegadores y Autenticación PIN',
+      '4. Guía de la Interfaz y Métricas en Tiempo Real del Dashboard',
+      '5. Funcionalidades Paso a Paso por Módulo (Sala, TPV, KDS, Caja, Inventario, BCG, Analítica)',
+      '6. Preguntas Frecuentes (FAQ): Contingencia Offline, Descuadres, Tickets y Alérgenos',
+      '7. Soporte Técnico, Canales de Asistencia y Mantenimiento'
     ],
     fullContentMarkdown: USER_MANUAL_CONTENT
   }

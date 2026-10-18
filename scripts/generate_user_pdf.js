@@ -64,7 +64,7 @@ async function generateUserManualPDF() {
 
   doc.setFontSize(9);
   doc.setTextColor(148, 163, 184);
-  doc.text('Dirección de Operaciones & Arquitectura de Software GastroPOS | Septiembre 2026', margin, 70);
+  doc.text('Dirección de Operaciones & Arquitectura de Software GastroPOS | Octubre 2026', margin, 70);
 
   cursorY = 102;
 
@@ -139,6 +139,66 @@ async function generateUserManualPDF() {
       if (i < lines.length - 1) cursorY += 4.3;
     }
     cursorY += 4.8;
+  }
+
+  function addCallout(text) {
+    const cleanText = text.replace(/^>\s*/, '').replace(/\*\*/g, '').trim();
+    if (!cleanText) return;
+
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(8.5);
+    const boxMargin = margin + 1;
+    const boxWidth = contentWidth - 2;
+    const textLines = doc.splitTextToSize(cleanText, boxWidth - 10);
+    const boxHeight = textLines.length * 4.2 + 6;
+    checkPageBreak(boxHeight + 4);
+
+    // Callout background box
+    doc.setFillColor(248, 250, 252); // slate-50
+    doc.setDrawColor(203, 213, 225); // slate-300
+    doc.setLineWidth(0.3);
+    doc.roundedRect(boxMargin, cursorY, boxWidth, boxHeight, 1.5, 1.5, 'FD');
+
+    // Accent line on left
+    doc.setFillColor(...accentColor);
+    doc.rect(boxMargin, cursorY, 2.5, boxHeight, 'F');
+
+    // Text inside callout
+    doc.setTextColor(30, 41, 59); // slate-800
+    let textY = cursorY + 4.5;
+    for (let i = 0; i < textLines.length; i++) {
+      doc.text(textLines[i], boxMargin + 6, textY);
+      textY += 4.2;
+    }
+    cursorY += boxHeight + 4;
+  }
+
+  function addNumberedItem(num, text) {
+    const cleanText = text.replace(/\*\*/g, '').trim();
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9);
+    const numPrefix = num + ' ';
+    const numWidth = doc.getTextWidth(numPrefix);
+    const availWidth = contentWidth - 4;
+
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(9);
+    const textLines = doc.splitTextToSize(cleanText, availWidth - numWidth);
+    const needed = textLines.length * 4.3 + 3;
+    checkPageBreak(needed);
+
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(...primaryColor);
+    doc.text(numPrefix, margin + 2, cursorY);
+
+    doc.setFont('helvetica', 'normal');
+    doc.setTextColor(...secondaryColor);
+    const textX = margin + 2 + numWidth;
+    for (let i = 0; i < textLines.length; i++) {
+      doc.text(textLines[i], textX, cursorY);
+      if (i < textLines.length - 1) cursorY += 4.3;
+    }
+    cursorY += 4.6;
   }
 
   function addBulletItem({ isSubBullet, title, desc, rawText }) {
@@ -304,8 +364,8 @@ async function generateUserManualPDF() {
       continue;
     }
 
-    // Detect section 1 start to end cover header zone
-    if (trimmed.startsWith('## 1. ')) {
+    // Detect section header to end cover header zone
+    if (trimmed.startsWith('## ')) {
       inCoverHeader = false;
     }
 
@@ -359,6 +419,21 @@ async function generateUserManualPDF() {
           rawText: clean
         });
       }
+      continue;
+    }
+
+    // Callouts / Blockquotes
+    if (trimmed.startsWith('>')) {
+      flushCurrentPara();
+      addCallout(trimmed);
+      continue;
+    }
+
+    // Numbered step lists (e.g. 1. 2.)
+    const numMatch = trimmed.match(/^(\d+\.)\s+(.*)$/);
+    if (numMatch) {
+      flushCurrentPara();
+      addNumberedItem(numMatch[1], numMatch[2]);
       continue;
     }
 
